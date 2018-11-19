@@ -900,6 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inZone: 0
+  villager: 0
 --- !u!212 &1857907880
 SpriteRenderer:
   m_ObjectHideFlags: 0

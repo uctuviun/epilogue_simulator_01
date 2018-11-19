@@ -106,15 +106,7 @@ namespace Kino
                 SetUpResources();
                 UpdateNoiseTexture();
             }
-            if (PlayerPrefs.GetInt("gameTuning") == 3){
-              intensity = 0;
-            }
-            if (PlayerPrefs.GetInt("gameTuning") == 2){
-              intensity = .6f;
-            }
-            if (PlayerPrefs.GetInt("gameTuning") == 1){
-              intensity = .9f;
-            }
+
         }
 
         void OnRenderImage(RenderTexture source, RenderTexture destination)
