@@ -51,7 +51,7 @@ Animator:
   m_GameObject: {fileID: 1743762154487368}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9257f9df0c74a43129c984f4af3d9776, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2939e840f2cad4be19109a0a10bfe6eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -87,6 +87,11 @@ MonoBehaviour:
   heal: 0
   thundaga: 0
   firaga: 1
+  oblivion: 0
+  hope: 0
+  blizzaga: 0
+  confiteor: 0
+  tribunal: 0
 --- !u!212 &212812646201610844
 SpriteRenderer:
   m_ObjectHideFlags: 1
