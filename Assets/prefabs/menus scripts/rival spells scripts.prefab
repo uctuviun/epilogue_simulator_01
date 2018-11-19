@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1891077875771670}
+  m_IsPrefabAsset: 1
+--- !u!1 &1891077875771670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4584827777095442}
+  - component: {fileID: 114983940964016012}
+  m_Layer: 0
+  m_Name: rival spells scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4584827777095442
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891077875771670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -81.19983, y: 1.0706517, z: 0.32966247}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114983940964016012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1891077875771670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c693d2ec4aec44542bdabbb3bfbc4333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1353589125260840, guid: ae9453d36ecac4f98ba1898ba58e50d5, type: 2}
+  null_effulgence: {fileID: 1863050135664920, guid: 31bd81d65cdba4a59b93651c9346d90d,
+    type: 2}
+  panacea: {fileID: 1925484830219188, guid: fe5257ff971f9447e97532ce772e965a, type: 2}
+  sepulchre: {fileID: 1284737310512874, guid: 17ff77212af634bcfadc5c1008dcbbce, type: 2}
+  farrago_ring: {fileID: 1838604109867248, guid: 65a92229b07d443638f52bf7a0a819f2,
+    type: 2}
+  harbinger_tone: {fileID: 1083089064640144, guid: ad4d28e024d894398ac327d9ead3c48c,
+    type: 2}
+  vituperate: {fileID: 1752862226172168, guid: 5967881892b54439a9dc8d88fe62c954, type: 2}
+  tribunal: {fileID: 1704697394738598, guid: 5659cd8cf544242c6b5b79c63b5ead94, type: 2}

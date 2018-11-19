@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1486599905682588}
+  m_IsPrefabAsset: 1
+--- !u!1 &1486599905682588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4159891184348048}
+  - component: {fileID: 114061455024259508}
+  m_Layer: 0
+  m_Name: menu controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4159891184348048
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486599905682588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0706592, y: 1.3944294, z: -3.6752617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114061455024259508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486599905682588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f74b90b246564fb48dc7acb6e187d2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pIsOpen: 0
+  oIsOpen: 0
+  eIsOpen: 0
+  yIsOpen: 0
+  uIsOpen: 0
+  qIsOpen: 0
+  rIsOpen: 0
+  p_1: {fileID: 1699638630492574, guid: 91400e62eab1c4e2392de395aff30dc6, type: 2}
+  p_2: {fileID: 1460658354652562, guid: ebb31bde686bd41208ad0fb684aff531, type: 2}
+  p_3: {fileID: 1238796898901264, guid: 8a236ab7467cb4364b876d85fba3c5bd, type: 2}
+  o_1: {fileID: 1716277236128050, guid: 98f3e79255faa4a54909d59c94af1b3b, type: 2}
+  o_2: {fileID: 1204855237601504, guid: d093cc3fe0eae43edac3516ee2bf91ba, type: 2}
+  o_3: {fileID: 1315951121287632, guid: c892439f99309452c83ed9dd737a3cef, type: 2}
+  e_1: {fileID: 1029494700913046, guid: 4081aa861ed6248538d6d84add54aef9, type: 2}
+  e_2: {fileID: 1612460588432400, guid: 458a323a42e2a4db39b586cba2902a79, type: 2}
+  e_3: {fileID: 1274341348811530, guid: 2dc68b48fdf8149189159eaa9dda9936, type: 2}
+  y_1: {fileID: 1659531199933158, guid: 7cf8e9969848d47969a71abe3dffcf92, type: 2}
+  y_2: {fileID: 1541296200391872, guid: f4ef314a41deb46038207982ec95b75b, type: 2}
+  y_3: {fileID: 1754205890040826, guid: 5202a70d647144f3cbd426d92570cb00, type: 2}
+  u_1: {fileID: 0}
+  u_2: {fileID: 0}
+  u_3: {fileID: 0}
+  q_1: {fileID: 0}
+  q_2: {fileID: 0}
+  q_3: {fileID: 0}
+  r_1: {fileID: 0}
+  r_2: {fileID: 0}
+  r_3: {fileID: 0}
+  duration: 1
