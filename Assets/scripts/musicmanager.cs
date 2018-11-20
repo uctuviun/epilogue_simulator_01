@@ -5,7 +5,9 @@ using UnityEngine;
 public class musicmanager : MonoBehaviour {
 
 public AudioSource AudioSource;
+//public AudioSource SoundSource;
 public AudioClip clip_1, clip_2, clip_3, clip_4, clip_5, clip_6;
+//public AudioCLip static_1, static_2, static_3;
 private static musicmanager instance = null;
 public static musicmanager Instance {
      get { return instance; }
@@ -29,7 +31,7 @@ public static musicmanager Instance {
 
 	// Use this for initialization
 	void Start () {
-    AudioSource = GetComponentInChildren<AudioSource>();
+//    AudioSource = GetComponentInChildren<AudioSource>();
 
 	}
 
@@ -85,6 +87,17 @@ public static musicmanager Instance {
     if(PlayerPrefs.GetInt("soundOn") == 0){
       AudioSource.enabled = false;
     }
-
+/*    if(PlayerPrefs.GetInt("gameTuning") == 3){
+      SoundSource.clip = static_3;
+      SoundSource.enabled = true;
+    }
+    if(PlayerPrefs.GetInt("gameTuning") == 2){
+      SoundSource.clip = static_2;
+      SoundSource.enabled = true;
+    }
+    if(PlayerPrefs.GetInt("gameTuning") == 1){
+      SoundSource.clip = static_1;
+      SoundSource.enabled = true;
+    }*/
 	}
 }
