@@ -8,9 +8,11 @@ public class spellspawn : MonoBehaviour {
 	public bool null_effulgence, omne_obelus, panacea, recover, cynosure, sepulchre,
 	parhelion, farrago_ring, full_threnody, ancilla_tone, harbinger_tone, radius_mar,
 	vituperate, heal, thundaga, firaga, oblivion, hope, blizzaga, confiteor, tribunal;
+	AudioSource audiosource;
 
 	// Use this for initialization
 	void Start () {
+		audiosource = GetComponent<AudioSource>();
 		StartCoroutine(Activate());
 	}
 
@@ -20,6 +22,9 @@ public class spellspawn : MonoBehaviour {
 	}
 
 	IEnumerator Activate(){
+		if(PlayerPrefs.GetInt("soundOn") == 0){
+			audiosource.enabled = false;
+		}
 		if(radius_mar == true || vituperate == true){
 			PlayerPrefs.SetInt("killMode", 1);
 			Debug.Log("KILLMODE");

@@ -157,6 +157,11 @@ Prefab:
       propertyPath: whichPortal
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114830846297837690, guid: 2ef0638e3ed2541979f49cf7ba25c190,
+        type: 2}
+      propertyPath: sendToWorld
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ef0638e3ed2541979f49cf7ba25c190, type: 2}
   m_IsPrefabAsset: 0

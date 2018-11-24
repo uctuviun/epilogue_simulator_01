@@ -7,11 +7,13 @@ public class teleport : MonoBehaviour {
 
 	public int sendToWorld, whichPortal;
 	Animator animator;
+	AudioSource audiosource;
 	public GameObject fade;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
+		audiosource = GetComponent<AudioSource>();
 
 	}
 
@@ -23,6 +25,9 @@ public class teleport : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if(col.gameObject.tag == "player"){
 			StartCoroutine(Warping());
+			if (PlayerPrefs.GetInt("soundOn") == 1){
+							audiosource.enabled = true;
+			}
 		}
 	}
 
