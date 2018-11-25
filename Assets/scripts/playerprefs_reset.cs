@@ -5,8 +5,11 @@ using UnityEngine;
 public class playerprefs_reset : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
 
+
+
+	void Start () {
+		Screen.SetResolution(2880, 1414, true);
 		PlayerPrefs.SetInt("sendTo", 1);
 		PlayerPrefs.SetInt("optionsParts", 0);
 		PlayerPrefs.SetInt("playerItemsParts", 0);
