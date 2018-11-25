@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 95459315625470014}
   - component: {fileID: 114077723688727122}
   - component: {fileID: 82143465612669888}
+  - component: {fileID: 114356121068567762}
   m_Layer: 5
   m_Name: menu_y_3
   m_TagString: Untagged
@@ -747,6 +748,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114356121068567762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754205890040826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7c3ea62362451e87cb2d27aa7d8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114394100331305814
 MonoBehaviour:
   m_ObjectHideFlags: 1

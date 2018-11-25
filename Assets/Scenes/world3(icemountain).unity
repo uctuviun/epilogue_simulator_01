@@ -279,12 +279,12 @@ Prefab:
     - target: {fileID: 114627066765517462, guid: f8b739888473f4f9ba21a83eff19141e,
         type: 2}
       propertyPath: this_is
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114627066765517462, guid: f8b739888473f4f9ba21a83eff19141e,
         type: 2}
       propertyPath: the_other_is
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8b739888473f4f9ba21a83eff19141e, type: 2}

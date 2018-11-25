@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 95775113015539646}
   - component: {fileID: 114929261476727524}
   - component: {fileID: 82131933601411858}
+  - component: {fileID: 114444979654644428}
   m_Layer: 5
   m_Name: menu_p_3
   m_TagString: Untagged
@@ -735,6 +736,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114444979654644428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1238796898901264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7c3ea62362451e87cb2d27aa7d8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114447796014881746
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1474,7 +1486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -28.194, y: -7.481181}
+  m_AnchoredPosition: {x: 19.830069, y: 14.703466}
   m_SizeDelta: {x: 856, y: 409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224552719788601666

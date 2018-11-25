@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 95594238414717448}
   - component: {fileID: 114884994224014042}
   - component: {fileID: 82097079183901278}
+  - component: {fileID: 114122517245015430}
   m_Layer: 5
   m_Name: menu_e_3
   m_TagString: Untagged
@@ -487,6 +488,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myImage: {fileID: 114054062966085672}
   mySprite: {fileID: 21300000, guid: 4caa4e8bea44149dfa7b9161104155b7, type: 3}
+--- !u!114 &114122517245015430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274341348811530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7c3ea62362451e87cb2d27aa7d8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114159896137361950
 MonoBehaviour:
   m_ObjectHideFlags: 1
