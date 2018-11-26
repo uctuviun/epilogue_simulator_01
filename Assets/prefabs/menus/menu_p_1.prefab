@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 114104563317607228}
   - component: {fileID: 82783027862382960}
   - component: {fileID: 114250528313204644}
+  - component: {fileID: 114053928835605656}
   m_Layer: 5
   m_Name: menu_p_1
   m_TagString: Untagged
@@ -381,6 +382,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114053928835605656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699638630492574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d086885edafaa47cd80aa3f0f82eca84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114069250455305552
 MonoBehaviour:
   m_ObjectHideFlags: 1

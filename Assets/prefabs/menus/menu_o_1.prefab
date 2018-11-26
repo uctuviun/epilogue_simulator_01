@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 114887101655325744}
   - component: {fileID: 82936275106064336}
   - component: {fileID: 114735859873566622}
+  - component: {fileID: 114964012893650570}
   m_Layer: 5
   m_Name: menu_o_1
   m_TagString: Untagged
@@ -778,6 +779,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myImage: {fileID: 0}
   mySprite: {fileID: 21300026, guid: f8cb7f22534aa42bf86a006f2022260b, type: 3}
+--- !u!114 &114964012893650570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716277236128050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d086885edafaa47cd80aa3f0f82eca84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212855747120364976
 SpriteRenderer:
   m_ObjectHideFlags: 1

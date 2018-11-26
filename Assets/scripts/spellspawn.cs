@@ -25,6 +25,7 @@ public class spellspawn : MonoBehaviour {
 		if(PlayerPrefs.GetInt("soundOn") == 0){
 			audiosource.enabled = false;
 		}
+		PlayerPrefs.SetInt("menuKill", 1);
 		if(radius_mar == true || vituperate == true){
 			PlayerPrefs.SetInt("killMode", 1);
 			Debug.Log("KILLMODE");
@@ -94,6 +95,7 @@ public class spellspawn : MonoBehaviour {
 		if(hope == true){
 			PlayerPrefs.SetInt("gameSpeed", 4);
 		}
+		PlayerPrefs.SetInt("menuKill", 0);
 		Destroy(gameObject);
 	}
 }
