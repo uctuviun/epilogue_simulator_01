@@ -33,6 +33,8 @@ public class playerprefs_reset : MonoBehaviour {
 		//elementMode: 1 = fire, 2 = ice, 3 = thunder
 		PlayerPrefs.SetInt("elementOn", 0);
 		PlayerPrefs.SetInt("menuKill", 0);
+		PlayerPrefs.SetInt("pillarOne", 0);
+
 
 	}
 

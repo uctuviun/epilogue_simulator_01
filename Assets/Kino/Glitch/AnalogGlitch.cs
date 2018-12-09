@@ -87,16 +87,16 @@ namespace Kino
 
         void Update(){
           if (PlayerPrefs.GetInt("gameTuning") == 1){
-            scanLineJitter = .4f;
-            verticalJump = .4f;
-            horizontalShake = .4f;
-            colorDrift = .4f;
+            scanLineJitter = .3f;
+            verticalJump = .3f;
+            horizontalShake = .3f;
+            colorDrift = .3f;
           }
           if (PlayerPrefs.GetInt("gameTuning") == 2){
-            scanLineJitter = .2f;
-            verticalJump = .2f;
-            horizontalShake = .2f;
-            colorDrift = .2f;
+            scanLineJitter = .15f;
+            verticalJump = .15f;
+            horizontalShake = .15f;
+            colorDrift = .15f;
           }
           if (PlayerPrefs.GetInt("gameTuning") == 3){
             scanLineJitter = 0;

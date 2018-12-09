@@ -5,10 +5,12 @@ using UnityEngine;
 public class go_behind_things : MonoBehaviour {
 
 	Renderer renderer;
-	public bool inZone = false, villager;
+	public bool inZone = false;
+	public bool villager;
 
 	// Use this for initialization
 	void Start () {
+//		renderer.sortingOrder = -1;
 		renderer = GetComponent<Renderer> ();
 		if (villager == true){
 			renderer = gameObject.GetComponentInParent<Renderer>();
