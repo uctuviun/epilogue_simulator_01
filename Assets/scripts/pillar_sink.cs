@@ -23,12 +23,108 @@ public class pillar_sink : MonoBehaviour {
 				Destroy(gameObject);
 			}
 		}
+		if(p_two){
+			if(PlayerPrefs.GetInt("pillarTwo") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarTwo") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_three){
+			if(PlayerPrefs.GetInt("pillarThree") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarThree") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_four){
+			if(PlayerPrefs.GetInt("pillarFour") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarFour") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_five){
+			if(PlayerPrefs.GetInt("pillarFive") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarFive") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_six){
+			if(PlayerPrefs.GetInt("pillarSix") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarSix") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_seven){
+			if(PlayerPrefs.GetInt("pillarSeven") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarSeven") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_eight){
+			if(PlayerPrefs.GetInt("pillarEight") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarEight") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_nine){
+			if(PlayerPrefs.GetInt("pillarNine") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarNine") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_ten){
+			if(PlayerPrefs.GetInt("pillarTen") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarTen") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_eleven){
+			if(PlayerPrefs.GetInt("pillarEleven") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarEleven") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_twelve){
+			if(PlayerPrefs.GetInt("pillarTwelve") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarTwelve") == 2){
+				Destroy(gameObject);
+			}
+		}
+		if(p_thirteen){
+			if(PlayerPrefs.GetInt("pillarThirteen") == 1){
+				StartCoroutine(Sinking());
+			}
+			if(PlayerPrefs.GetInt("pillarThirteen") == 2){
+				Destroy(gameObject);
+			}
+		}
 	}
 
 
 	IEnumerator Sinking (){
 		animator.SetInteger ("state", 1);
-		yield return new WaitForSeconds((this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length));
+		yield return new WaitForSeconds((this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length ));
 		Destroy(gameObject);
 	}
 

@@ -91,6 +91,19 @@ public class spellspawn : MonoBehaviour {
 			PlayerPrefs.SetInt("rivalSpellsParts", 0);
 			PlayerPrefs.SetInt("heroItemsParts", 0);
 			PlayerPrefs.SetInt("heroSpellsParts", 0);
+			PlayerPrefs.SetInt("pillarOne", 0);
+			PlayerPrefs.SetInt("pillarTwo", 0);
+			PlayerPrefs.SetInt("pillarThree", 0);
+			PlayerPrefs.SetInt("pillarFour", 0);
+			PlayerPrefs.SetInt("pillarFive", 0);
+			PlayerPrefs.SetInt("pillarSix", 0);
+			PlayerPrefs.SetInt("pillarSeven", 0);
+			PlayerPrefs.SetInt("pillarEight", 0);
+			PlayerPrefs.SetInt("pillarNine", 0);
+			PlayerPrefs.SetInt("pillarTen", 0);
+			PlayerPrefs.SetInt("pillarEleven", 0);
+			PlayerPrefs.SetInt("pillarTwelve", 0);
+			PlayerPrefs.SetInt("pillarThirteen", 0);
 		}
 		if(hope == true){
 			PlayerPrefs.SetInt("gameSpeed", 4);

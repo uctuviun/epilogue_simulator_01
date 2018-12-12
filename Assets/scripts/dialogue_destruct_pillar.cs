@@ -24,7 +24,43 @@ public class dialogue_destruct_pillar : MonoBehaviour {
 			if(p_one){
 				PlayerPrefs.SetInt("pillarOne", 2);
 			}
+			if(p_two){
+				PlayerPrefs.SetInt("pillarTwo", 2);
+			}
+			if(p_three){
+				PlayerPrefs.SetInt("pillarThree", 2);
+			}
+			if(p_four){
+				PlayerPrefs.SetInt("pillarFour", 2);
+			}
+			if(p_five){
+				PlayerPrefs.SetInt("pillarFive", 2);
+			}
+			if(p_six){
+				PlayerPrefs.SetInt("pillarSix", 2);
+			}
+			if(p_seven){
+				PlayerPrefs.SetInt("pillarSeven", 2);
+			}
+			if(p_eight){
+				PlayerPrefs.SetInt("pillarEight", 2);
+			}
+			if(p_nine){
+				PlayerPrefs.SetInt("pillarNine", 2);
+			}
+			if(p_ten){
+				PlayerPrefs.SetInt("pillarTen", 2);
+			}
+			if(p_eleven){
+				PlayerPrefs.SetInt("pillarEleven", 2);
+			}
+			if(p_twelve){
+				PlayerPrefs.SetInt("pillarTwelve", 2);
+			}
+			if(p_thirteen){
+				PlayerPrefs.SetInt("pillarThirteen", 2);
+			}
 			Destroy(gameObject);
 		}
 	}
-}	
+}

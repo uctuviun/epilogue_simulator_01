@@ -34,6 +34,18 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("elementOn", 0);
 		PlayerPrefs.SetInt("menuKill", 0);
 		PlayerPrefs.SetInt("pillarOne", 0);
+		PlayerPrefs.SetInt("pillarTwo", 0);
+		PlayerPrefs.SetInt("pillarThree", 0);
+		PlayerPrefs.SetInt("pillarFour", 0);
+		PlayerPrefs.SetInt("pillarFive", 0);
+		PlayerPrefs.SetInt("pillarSix", 0);
+		PlayerPrefs.SetInt("pillarSeven", 0);
+		PlayerPrefs.SetInt("pillarEight", 0);
+		PlayerPrefs.SetInt("pillarNine", 0);
+		PlayerPrefs.SetInt("pillarTen", 0);
+		PlayerPrefs.SetInt("pillarEleven", 0);
+		PlayerPrefs.SetInt("pillarTwelve", 0);
+		PlayerPrefs.SetInt("pillarThirteen", 0);
 
 
 	}
