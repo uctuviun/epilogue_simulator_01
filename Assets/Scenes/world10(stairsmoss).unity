@@ -1392,7 +1392,7 @@ MonoBehaviour:
   p_eleven: 0
   p_twelve: 0
   p_thirteen: 0
-  dialogue: {fileID: 1730262381164646, guid: 1b18db56f7a634686989382bcddfe75d, type: 2}
+  dialogue: {fileID: 1904040526307188, guid: a90232d8e6d3745db87e106402b9cc5b, type: 2}
 --- !u!58 &1736185779
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1472,7 +1472,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1922757156}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

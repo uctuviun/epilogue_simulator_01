@@ -1037,7 +1037,7 @@ MonoBehaviour:
   p_eleven: 0
   p_twelve: 0
   p_thirteen: 0
-  dialogue: {fileID: 1730262381164646, guid: 1b18db56f7a634686989382bcddfe75d, type: 2}
+  dialogue: {fileID: 1105230312038306, guid: 586b88ab2d7bf41af855939f9eb07224, type: 2}
 --- !u!58 &1752654292
 CircleCollider2D:
   m_ObjectHideFlags: 0
