@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 446181905}
   - component: {fileID: 446181907}
   - component: {fileID: 446181908}
+  - component: {fileID: 446181909}
   m_Layer: 0
   m_Name: element sphere
   m_TagString: Untagged
@@ -413,6 +414,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a3eca25d32f4d84830e02e55f6b56e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &446181909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 446181901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d10b34769d04eca9ac85aa1ce229c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phase: 4
 --- !u!1 &447062268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1433,7 @@ GameObject:
   - component: {fileID: 1922757160}
   - component: {fileID: 1922757159}
   - component: {fileID: 1922757158}
+  - component: {fileID: 1922757162}
   m_Layer: 0
   m_Name: selector
   m_TagString: Untagged
@@ -1530,6 +1544,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1922757162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1922757156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d10b34769d04eca9ac85aa1ce229c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phase: 4
 --- !u!1 &2041283835
 GameObject:
   m_ObjectHideFlags: 0

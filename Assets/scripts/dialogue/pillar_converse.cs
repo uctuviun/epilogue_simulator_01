@@ -34,6 +34,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarOne", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -42,6 +44,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarTwo", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -50,6 +54,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarThree", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -58,6 +64,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarFour", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -66,6 +74,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarFive", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -74,6 +84,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarSix", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -82,6 +94,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarSeven", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -90,6 +104,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarEight", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -98,6 +114,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarNine", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -106,6 +124,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarTen", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -114,6 +134,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarEleven", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -122,6 +144,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarTwelve", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
@@ -130,6 +154,8 @@ public class pillar_converse : MonoBehaviour {
 				if(inZone == true && Input.GetKeyDown("space")){
 					PlayerPrefs.SetInt("pillarThirteen", 1);
 					Instantiate(dialogue, new Vector2 (-100, -100), Quaternion.identity);
+					PlayerPrefs.SetInt("totalPillars", (PlayerPrefs.GetInt("totalPillars")) + 1);
+					Debug.Log(PlayerPrefs.GetInt("totalPillars"));
 				}
 			}
 		}
