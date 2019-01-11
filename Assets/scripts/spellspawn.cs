@@ -66,7 +66,7 @@ public class spellspawn : MonoBehaviour {
 			PlayerPrefs.SetInt("gameTuning", 2);
 		}
 		if(farrago_ring == true){
-			PlayerPrefs.SetInt("gameTuning", 1);
+			PlayerPrefs.SetInt("gameTuning", 2);
 		}
 		if(full_threnody == true){
 			PlayerPrefs.SetInt("backgroundMusic", 6);

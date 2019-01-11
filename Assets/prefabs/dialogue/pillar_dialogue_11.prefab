@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0
-  p_one: 1
+  p_one: 0
   p_two: 0
   p_three: 0
   p_four: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
   p_eight: 0
   p_nine: 0
   p_ten: 0
-  p_eleven: 0
+  p_eleven: 1
   p_twelve: 0
   p_thirteen: 0
 --- !u!114 &114694980027925626
