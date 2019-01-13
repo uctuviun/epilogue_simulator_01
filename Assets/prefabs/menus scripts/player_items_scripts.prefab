@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1232462551377252}
+  m_IsPrefabAsset: 1
+--- !u!1 &1232462551377252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4152939723928272}
+  - component: {fileID: 114956844475865030}
+  m_Layer: 0
+  m_Name: player_items_scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152939723928272
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232462551377252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.5473285, y: 3.3721614, z: 0.073981896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114956844475865030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232462551377252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002cd0338d6ff418780bfcb8ea71e3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source_token: {fileID: 1306389069138342, guid: c8fe15e7a95094c429347b8951d846bd,
+    type: 2}
+  release_chain: {fileID: 1362227181664716, guid: 3f84c2461e90a4bcd910682d2a2ba93c,
+    type: 2}
+  apex_lantern: {fileID: 1859678437004838, guid: a48249beff6834caa9479fbc461bac48,
+    type: 2}
+  raincatcher: {fileID: 1957873889149056, guid: 083943c2bc3774b92982ed1e7f6adfab,
+    type: 2}
+  chasm_log: {fileID: 1209439847937244, guid: 2f1d8134a4c5f46af88cb7f03a9a0768, type: 2}
+  reliquary_halo: {fileID: 1940013390999572, guid: 6eb85ddba91df455e8c07cdc579f4ffc,
+    type: 2}
+  omne_card: {fileID: 1468941138067794, guid: bfa36d255012440deb658a291d6b0c9f, type: 2}

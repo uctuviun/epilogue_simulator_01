@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class itemspawn : MonoBehaviour {
 
-	public bool flatbreads, canteen, panpipes, knife, seedling, rival_vessel, player_vessel;
+	public bool flatbreads, canteen, panpipes, knife, seedling, rival_vessel, player_vessel,
+	root_puzzle, chain_release, alpha_gene, fortuneteller, bridge_log, reliquary_bone, nulla_card,
+	source_token, release_chain, apex_lantern, raincatcher, chasm_log, reliquary_halo, omne_card;
 	AudioSource audiosource;
 
 	// Use this for initialization

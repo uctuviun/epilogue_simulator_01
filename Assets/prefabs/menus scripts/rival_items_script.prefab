@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1646161346455556}
+  m_IsPrefabAsset: 1
+--- !u!1 &1646161346455556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4917632997337224}
+  - component: {fileID: 114144594031659164}
+  m_Layer: 0
+  m_Name: rival_items_script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4917632997337224
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646161346455556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.857984, y: 2.1566699, z: 0.063412875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114144594031659164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646161346455556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d419dbc75f5f401189c933862a03f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootpuzzle: {fileID: 1490052699874284, guid: 5f2ad853edb404250a66220394623683, type: 2}
+  chainrelease: {fileID: 1499324591080758, guid: 4ca27f131293b4e5690de933d99a7282,
+    type: 2}
+  alphagene: {fileID: 1544020702959278, guid: 325a970e833b843f1b73e5063d7a798e, type: 2}
+  fortuneteller: {fileID: 1104177047095900, guid: e5d611311edfe4597ad97b712100c673,
+    type: 2}
+  bridgelog: {fileID: 1708794263057588, guid: 5f5f8499e2ca148bc9ec311715064a53, type: 2}
+  reliquarybone: {fileID: 1307496396618898, guid: 1b4e3421e6e3148cdb3e0efb2d896150,
+    type: 2}
+  nullacard: {fileID: 1914908665118268, guid: c513fb9100d6549ce941e836dd31dfde, type: 2}
