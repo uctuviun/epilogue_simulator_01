@@ -1595,6 +1595,16 @@ Prefab:
       propertyPath: opt2y
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 114561628585725386, guid: 1839fd24d4f25483bb58d80ae16538d4,
+        type: 2}
+      propertyPath: opt3x
+      value: 25.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114561628585725386, guid: 1839fd24d4f25483bb58d80ae16538d4,
+        type: 2}
+      propertyPath: opt3y
+      value: 13.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1839fd24d4f25483bb58d80ae16538d4, type: 2}
   m_IsPrefabAsset: 0

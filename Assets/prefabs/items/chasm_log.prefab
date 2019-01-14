@@ -188,6 +188,8 @@ MonoBehaviour:
   chasm_log: 1
   reliquary_halo: 0
   omne_card: 0
+  rosetta: {fileID: 1640192760804162, guid: 73df1cc948b344c8e80daae131b0fd32, type: 2}
+  map: {fileID: 0}
 --- !u!212 &212513909820226266
 SpriteRenderer:
   m_ObjectHideFlags: 1

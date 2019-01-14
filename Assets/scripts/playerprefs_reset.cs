@@ -47,6 +47,7 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("pillarTwelve", 0);
 		PlayerPrefs.SetInt("pillarThirteen", 0);
 		PlayerPrefs.SetInt("totalPillars", 0);
+		PlayerPrefs.SetInt("releasedMode", 0);
 
 
 	}

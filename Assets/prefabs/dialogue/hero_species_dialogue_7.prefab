@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 114259027003023432}
   - component: {fileID: 95708700610285732}
   - component: {fileID: 82441282862625274}
+  - component: {fileID: 114544022326235162}
   m_Layer: 5
   m_Name: hero_species_dialogue_7
   m_TagString: Untagged
@@ -326,6 +327,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 4
+--- !u!114 &114544022326235162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805759324859042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114680217553638816
 MonoBehaviour:
   m_ObjectHideFlags: 1

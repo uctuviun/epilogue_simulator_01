@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 95654058119162630}
   - component: {fileID: 82742873402285272}
   - component: {fileID: 114014040491848204}
+  - component: {fileID: 114880099818488254}
   m_Layer: 5
   m_Name: pillar_dialogue_4
   m_TagString: Untagged
@@ -376,6 +377,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114880099818488254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904040526307188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212679319380245580
 SpriteRenderer:
   m_ObjectHideFlags: 1

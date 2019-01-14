@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 95719556613555032}
   - component: {fileID: 82813193041061886}
   - component: {fileID: 114898968938262886}
+  - component: {fileID: 114607788196307996}
   m_Layer: 5
   m_Name: pillar_dialogue_8
   m_TagString: Untagged
@@ -287,6 +288,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114607788196307996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105230312038306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114780744641682178
 MonoBehaviour:
   m_ObjectHideFlags: 1

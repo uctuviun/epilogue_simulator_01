@@ -9,6 +9,8 @@ public class hero : MonoBehaviour {
 	float speed;
 	const int  LDOWN = 1, LUP = 2, RUP = 3, RDOWN = 4, LDZ = 5, LUZ = 6, RUZ = 7, RDZ = 8;
 	int _currentAnimationState = 0;
+	public RuntimeAnimatorController released;
+
 
 	// Use this for initialization
 	void Start () {
@@ -53,12 +55,23 @@ public class hero : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if(PlayerPrefs.GetInt("releasedMode") == 1){
+			animator.runtimeAnimatorController = released;
+		}
 		PlayerPrefs.SetFloat("playerX", transform.position.x);
 		PlayerPrefs.SetFloat("playerY", transform.position.y);
 
 
 
-		if(PlayerPrefs.GetInt("gameSpeed") == 1){
+		if(PlayerPrefs.GetInt("releasedMode") == 1){
+			if(PlayerPrefs.GetInt("slowed") == 1){
+				speed = 3;
+			}
+			else{
+				speed = 50;
+			}
+		}
+		else if(PlayerPrefs.GetInt("gameSpeed") == 1){
 			speed = 3;
 		}
 		else if(PlayerPrefs.GetInt("gameSpeed") == 2){
@@ -85,6 +98,7 @@ public class hero : MonoBehaviour {
 				speed = 15;
 			}
 		}
+
 
 		Vector2 movement = new Vector2(0, 0);
 

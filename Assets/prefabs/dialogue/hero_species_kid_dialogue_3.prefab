@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 114383994802559660}
   - component: {fileID: 95997467952276772}
   - component: {fileID: 82137832601103670}
+  - component: {fileID: 114965812464498912}
   m_Layer: 5
   m_Name: hero_species_kid_dialogue_3
   m_TagString: Untagged
@@ -363,6 +364,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114965812464498912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188757260756704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212193367714128338
 SpriteRenderer:
   m_ObjectHideFlags: 1

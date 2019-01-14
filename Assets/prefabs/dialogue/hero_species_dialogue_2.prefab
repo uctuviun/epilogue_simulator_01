@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114344820554014646}
   - component: {fileID: 95173796668886368}
   - component: {fileID: 82104330142009054}
+  - component: {fileID: 114827553254655594}
   m_Layer: 5
   m_Name: hero_species_dialogue_2
   m_TagString: Untagged
@@ -347,6 +348,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114827553254655594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309099294996024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114991064253307236
 MonoBehaviour:
   m_ObjectHideFlags: 1

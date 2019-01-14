@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 95410999293918068}
   - component: {fileID: 82741353637634560}
   - component: {fileID: 114792285224428132}
+  - component: {fileID: 114208641051223120}
   m_Layer: 5
   m_Name: pillar_dialogue_6
   m_TagString: Untagged
@@ -308,6 +309,17 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114208641051223120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1786047760397536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c89b78daa0e447fd90f1f9656cdd687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114639060527516570
 MonoBehaviour:
   m_ObjectHideFlags: 1
