@@ -8,6 +8,7 @@ public class dialogue_destruct_pillar : MonoBehaviour {
 	AudioSource audiosource;
 	public bool p_one, p_two, p_three, p_four, p_five, p_six, p_seven, p_eight,
 		p_nine, p_ten, p_eleven, p_twelve, p_thirteen;
+	public GameObject flashback;
 
 	// Use this for initialization
 	void Start () {
@@ -60,6 +61,7 @@ public class dialogue_destruct_pillar : MonoBehaviour {
 			if(p_thirteen){
 				PlayerPrefs.SetInt("pillarThirteen", 2);
 			}
+			Instantiate(flashback, new Vector2 (-100, -100), Quaternion.identity);
 			Destroy(gameObject);
 		}
 	}

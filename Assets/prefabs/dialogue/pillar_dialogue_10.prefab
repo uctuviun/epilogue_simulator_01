@@ -377,6 +377,7 @@ MonoBehaviour:
   p_eleven: 0
   p_twelve: 0
   p_thirteen: 0
+  flashback: {fileID: 1319852541066700, guid: a09030df51da74d969f4ee1f6db8258d, type: 2}
 --- !u!114 &114811819770832986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -479,7 +480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -23.332857, y: 4.6319675}
+  m_AnchoredPosition: {x: 26.816616, y: 27.488537}
   m_SizeDelta: {x: 856, y: 409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224571644585366140

@@ -336,7 +336,7 @@ Transform:
   - {fileID: 2041283836}
   - {fileID: 1922757157}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &446181905
 EdgeCollider2D:
@@ -1202,7 +1202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1380470609
 Prefab:
@@ -1295,7 +1295,7 @@ Prefab:
     - target: {fileID: 224803112684427026, guid: 4b7f6b7e7bafe40989cb1504e48e6d16,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224803112684427026, guid: 4b7f6b7e7bafe40989cb1504e48e6d16,
         type: 2}

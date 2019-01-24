@@ -48,6 +48,25 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("pillarThirteen", 0);
 		PlayerPrefs.SetInt("totalPillars", 0);
 		PlayerPrefs.SetInt("releasedMode", 0);
+		PlayerPrefs.SetInt("resetWindow", 0);
+		PlayerPrefs.SetInt("freeze", 0);
+		PlayerPrefs.SetInt("gameOver", 0);
+		PlayerPrefs.SetInt("boneZone", 0);
+		PlayerPrefs.SetInt("haloZone", 0);
+		PlayerPrefs.SetInt("boneActive", 0);
+		PlayerPrefs.SetInt("haloActive", 0);
+		PlayerPrefs.SetInt("ancientHeroRelease", 0);
+		PlayerPrefs.SetInt("ancientHeroOver", 0);
+		PlayerPrefs.SetInt("blackCardUsed", 0);
+		PlayerPrefs.SetInt("whiteCardUsed", 0);
+		PlayerPrefs.SetInt("blackCardUsing", 0);
+		PlayerPrefs.SetInt("whiteCardUsing", 0);
+		PlayerPrefs.SetInt("seedlingUsing", 0);
+		PlayerPrefs.SetInt("seedlingUsed", 0);
+		PlayerPrefs.SetInt("vesselFull", 0);
+		PlayerPrefs.SetInt("pouring", 0);
+		PlayerPrefs.SetInt("treeGrown", 0);
+		PlayerPrefs.SetInt("fishesBorn", 0);
 
 
 	}

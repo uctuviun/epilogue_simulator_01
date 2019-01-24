@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 114592406273858418}
   - component: {fileID: 50995119849745990}
   - component: {fileID: 58581017624563682}
+  - component: {fileID: 114453497027814374}
   m_Layer: 0
   m_Name: hero
   m_TagString: player
@@ -536,6 +537,18 @@ MonoBehaviour:
   _horizontalShake: 0
   _colorDrift: 0
   _shader: {fileID: 4800000, guid: da33272284ea24f208f36998880990be, type: 3}
+--- !u!114 &114453497027814374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353589125260840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0d1d5a761a6477db62c25df350decb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reset: {fileID: 1326305870060784, guid: 0455c3a5ef0c944ceb1bf7148de5ca04, type: 2}
 --- !u!114 &114592406273858418
 MonoBehaviour:
   m_ObjectHideFlags: 1

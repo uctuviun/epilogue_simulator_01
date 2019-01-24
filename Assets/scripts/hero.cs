@@ -71,6 +71,9 @@ public class hero : MonoBehaviour {
 				speed = 50;
 			}
 		}
+		else if(PlayerPrefs.GetInt("freeze") == 1){
+			speed = 0;
+		}
 		else if(PlayerPrefs.GetInt("gameSpeed") == 1){
 			speed = 3;
 		}
