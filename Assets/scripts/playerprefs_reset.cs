@@ -67,7 +67,9 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("pouring", 0);
 		PlayerPrefs.SetInt("treeGrown", 0);
 		PlayerPrefs.SetInt("fishesBorn", 0);
-
+		PlayerPrefs.SetInt("minigameOn", 0);
+		PlayerPrefs.SetInt("minigameLevel", 1);
+		PlayerPrefs.SetInt("miniSpawnLevel", 0);
 
 	}
 

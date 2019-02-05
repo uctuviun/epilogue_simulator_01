@@ -23,102 +23,102 @@ public class menu_spawn : MonoBehaviour {
 			StartCoroutine(TurnPBackOff());
 		}
 		if(Input.GetKeyDown("p") && !pIsOpen && PlayerPrefs.GetInt("optionsParts") == 2){
-			Instantiate(p_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(p_2, new Vector2 (-100, -200), Quaternion.identity);
 			pIsOpen = true;
 			StartCoroutine(TurnPBackOff());
 		}
 		if(Input.GetKeyDown("p") && !pIsOpen && PlayerPrefs.GetInt("optionsParts") == 3){
-			Instantiate(p_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(p_3, new Vector2 (-100, -300), Quaternion.identity);
 			pIsOpen = true;
 			StartCoroutine(TurnPBackOff());
 		}
 		if(Input.GetKeyDown("o") && !oIsOpen && PlayerPrefs.GetInt("playerSpellsParts") == 1){
-			Instantiate(o_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(o_1, new Vector2 (-100, -400), Quaternion.identity);
 			oIsOpen = true;
 			StartCoroutine(TurnOBackOff());
 		}
 		if(Input.GetKeyDown("o") && !oIsOpen && PlayerPrefs.GetInt("playerSpellsParts") == 2){
-			Instantiate(o_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(o_2, new Vector2 (-100, -500), Quaternion.identity);
 			oIsOpen = true;
 			StartCoroutine(TurnOBackOff());
 		}
 		if(Input.GetKeyDown("o") && !oIsOpen && PlayerPrefs.GetInt("playerSpellsParts") == 3){
-			Instantiate(o_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(o_3, new Vector2 (-100, -600), Quaternion.identity);
 			oIsOpen = true;
 			StartCoroutine(TurnOBackOff());
 		}
 		if(Input.GetKeyDown("e") && !eIsOpen && PlayerPrefs.GetInt("rivalSpellsParts") == 1){
-			Instantiate(e_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(e_1, new Vector2 (-100, -700), Quaternion.identity);
 			eIsOpen = true;
 			StartCoroutine(TurnEBackOff());
 		}
 		if(Input.GetKeyDown("e") && !eIsOpen && PlayerPrefs.GetInt("rivalSpellsParts") == 2){
-			Instantiate(e_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(e_2, new Vector2 (-100, -800), Quaternion.identity);
 			eIsOpen = true;
 			StartCoroutine(TurnEBackOff());
 		}
 		if(Input.GetKeyDown("e") && !eIsOpen && PlayerPrefs.GetInt("rivalSpellsParts") == 3){
-			Instantiate(e_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(e_3, new Vector2 (-100, -900), Quaternion.identity);
 			eIsOpen = true;
 			StartCoroutine(TurnEBackOff());
 		}
 		if(Input.GetKeyDown("y") && !yIsOpen && PlayerPrefs.GetInt("heroSpellsParts") == 1){
-			Instantiate(y_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(y_1, new Vector2 (-100, -1000), Quaternion.identity);
 			yIsOpen = true;
 			StartCoroutine(TurnYBackOff());
 		}
 		if(Input.GetKeyDown("y") && !yIsOpen && PlayerPrefs.GetInt("heroSpellsParts") == 2){
-			Instantiate(y_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(y_2, new Vector2 (-100, -1100), Quaternion.identity);
 			yIsOpen = true;
 			StartCoroutine(TurnYBackOff());
 		}
 		if(Input.GetKeyDown("y") && !yIsOpen && PlayerPrefs.GetInt("heroSpellsParts") == 3){
-			Instantiate(y_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(y_3, new Vector2 (-100, -1200), Quaternion.identity);
 			yIsOpen = true;
 			StartCoroutine(TurnYBackOff());
 		}
 		if(Input.GetKeyDown("u") && !uIsOpen && PlayerPrefs.GetInt("playerItemsParts") == 1){
-			Instantiate(u_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(u_1, new Vector2 (-100, -1300), Quaternion.identity);
 			uIsOpen = true;
 			StartCoroutine(TurnUBackOff());
 		}
 		if(Input.GetKeyDown("u") && !uIsOpen && PlayerPrefs.GetInt("playerItemsParts") == 2){
-			Instantiate(u_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(u_2, new Vector2 (-100, -1400), Quaternion.identity);
 			uIsOpen = true;
 			StartCoroutine(TurnUBackOff());
 		}
 		if(Input.GetKeyDown("u") && !uIsOpen && PlayerPrefs.GetInt("playerItemsParts") == 3){
-			Instantiate(u_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(u_3, new Vector2 (-100, -1500), Quaternion.identity);
 			uIsOpen = true;
 			StartCoroutine(TurnUBackOff());
 		}
 		if(Input.GetKeyDown("q") && !qIsOpen && PlayerPrefs.GetInt("rivalItemsParts") == 1){
-			Instantiate(q_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(q_1, new Vector2 (-100, -1600), Quaternion.identity);
 			qIsOpen = true;
 			StartCoroutine(TurnQBackOff());
 		}
 		if(Input.GetKeyDown("q") && !qIsOpen && PlayerPrefs.GetInt("rivalItemsParts") == 2){
-			Instantiate(q_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(q_2, new Vector2 (-100, -1700), Quaternion.identity);
 			qIsOpen = true;
 			StartCoroutine(TurnQBackOff());
 		}
 		if(Input.GetKeyDown("q") && !qIsOpen && PlayerPrefs.GetInt("rivalItemsParts") == 3){
-			Instantiate(q_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(q_3, new Vector2 (-100, -1800), Quaternion.identity);
 			qIsOpen = true;
 			StartCoroutine(TurnQBackOff());
 		}
 		if(Input.GetKeyDown("r") && !rIsOpen && PlayerPrefs.GetInt("heroItemsParts") == 1){
-			Instantiate(r_1, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(r_1, new Vector2 (-100, -1900), Quaternion.identity);
 			rIsOpen = true;
 			StartCoroutine(TurnRBackOff());
 		}
 		if(Input.GetKeyDown("r") && !rIsOpen && PlayerPrefs.GetInt("heroItemsParts") == 2){
-			Instantiate(r_2, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(r_2, new Vector2 (-100, -2000), Quaternion.identity);
 			rIsOpen = true;
 			StartCoroutine(TurnRBackOff());
 		}
 		if(Input.GetKeyDown("r") && !rIsOpen && PlayerPrefs.GetInt("heroItemsParts") == 3){
-			Instantiate(r_3, new Vector2 (-100, -100), Quaternion.identity);
+			Instantiate(r_3, new Vector2 (-100, -2100), Quaternion.identity);
 			rIsOpen = true;
 			StartCoroutine(TurnRBackOff());
 		}
