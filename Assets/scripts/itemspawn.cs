@@ -8,7 +8,7 @@ public class itemspawn : MonoBehaviour {
 	public bool flatbreads, canteen, panpipes, knife, seedling, rival_vessel, player_vessel,
 	root_puzzle, chain_release, alpha_gene, fortuneteller, bridge_log, reliquary_bone, nulla_card,
 	source_token, release_chain, apex_lantern, raincatcher, chasm_log, reliquary_halo, omne_card;
-	public GameObject rosetta, map, releasing, win_screen, loss_screen, reset, fishes;
+	public GameObject rosetta, map, releasing, win_screen, loss_screen, reset, fishes, minigame;
 	AudioSource audiosource;
 
 	// Use this for initialization
@@ -61,6 +61,9 @@ public class itemspawn : MonoBehaviour {
 			SceneManager.LoadScene(Random.Range(1, 22));
 			PlayerPrefs.SetInt("sendTo", (Random.Range(1, 4)));
 		}
+		if(root_puzzle == true){
+			Instantiate(minigame, new Vector2(-275, -275), Quaternion.identity);
+		}
 		if(release_chain == true){
 			PlayerPrefs.SetInt("releasedMode", 1);
 			PlayerPrefs.SetInt("gameOver", 1);
@@ -102,7 +105,7 @@ public class itemspawn : MonoBehaviour {
 				Instantiate(fishes, new Vector2(0,0), Quaternion.identity);
 				PlayerPrefs.SetInt("fishesBorn", 1);
 			}
-		}	
+		}
 		if(player_vessel == true){
 			Instantiate(loss_screen, new Vector2(-100, -100), Quaternion.identity);
 			PlayerPrefs.SetInt("freeze", 1);

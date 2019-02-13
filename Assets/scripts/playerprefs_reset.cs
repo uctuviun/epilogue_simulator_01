@@ -70,6 +70,9 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("minigameOn", 0);
 		PlayerPrefs.SetInt("minigameLevel", 1);
 		PlayerPrefs.SetInt("miniSpawnLevel", 0);
+		PlayerPrefs.SetInt("miniLevelSwitch", 1);
+		PlayerPrefs.SetInt("playerTransform", 0);
+		PlayerPrefs.SetInt("orangePlayer", 0);
 
 	}
 

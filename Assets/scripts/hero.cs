@@ -9,7 +9,7 @@ public class hero : MonoBehaviour {
 	float speed;
 	const int  LDOWN = 1, LUP = 2, RUP = 3, RDOWN = 4, LDZ = 5, LUZ = 6, RUZ = 7, RDZ = 8;
 	int _currentAnimationState = 0;
-	public RuntimeAnimatorController released;
+	public RuntimeAnimatorController released, transformed, orange;
 
 
 	// Use this for initialization
@@ -57,6 +57,12 @@ public class hero : MonoBehaviour {
 
 		if(PlayerPrefs.GetInt("releasedMode") == 1){
 			animator.runtimeAnimatorController = released;
+		}
+		else if(PlayerPrefs.GetInt("playerTransform") == 1 && PlayerPrefs.GetInt("orangePlayer") == 0){
+			animator.runtimeAnimatorController = transformed;
+		}
+		else if(PlayerPrefs.GetInt("orangePlayer") == 1){
+			animator.runtimeAnimatorController = orange;
 		}
 		PlayerPrefs.SetFloat("playerX", transform.position.x);
 		PlayerPrefs.SetFloat("playerY", transform.position.y);

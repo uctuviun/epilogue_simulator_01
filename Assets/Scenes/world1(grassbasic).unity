@@ -1986,6 +1986,7 @@ GameObject:
   - component: {fileID: 2010859325}
   - component: {fileID: 2010859327}
   - component: {fileID: 2010859328}
+  - component: {fileID: 2010859329}
   m_Layer: 0
   m_Name: rival
   m_TagString: Untagged
@@ -2089,6 +2090,21 @@ CapsuleCollider2D:
   m_Offset: {x: -0.013719201, y: -0.013719082}
   m_Size: {x: 0.96950793, y: 2.2274382}
   m_Direction: 0
+--- !u!114 &2010859329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2010859324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43a0033209f84741bd964640390c2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inZone: 0
+  release: {fileID: 1076270509090978, guid: 5000bf92f690c4d92b1e428fecd45129, type: 2}
+  endscreen: {fileID: 1521886220620626, guid: 0a2600a2a570348cdb085f9729c586dc, type: 2}
+  reset: {fileID: 1326305870060784, guid: 0455c3a5ef0c944ceb1bf7148de5ca04, type: 2}
 --- !u!1001 &2125228998
 Prefab:
   m_ObjectHideFlags: 0

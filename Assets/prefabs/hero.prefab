@@ -561,6 +561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   released: {fileID: 9100000, guid: d707d1cabe9d3436aa5d420e891d0de5, type: 2}
+  transformed: {fileID: 9100000, guid: 372ab7438d32f4d6f84b16a38090950e, type: 2}
+  orange: {fileID: 9100000, guid: 0c51d2ebec3c64636988db22310c7f76, type: 2}
 --- !u!114 &114800224297097422
 MonoBehaviour:
   m_ObjectHideFlags: 1

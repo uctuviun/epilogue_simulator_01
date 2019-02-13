@@ -5,7 +5,7 @@ using UnityEngine;
 public class herospecies_kid_converse : MonoBehaviour {
 
 	public bool inZone = false, windowOpen = false;
-	public GameObject dialogue_1, dialogue_2, dialogue_3;
+	public GameObject dialogue_1, dialogue_2, dialogue_3, after_1, after_2, after_3;
 	public int duration;
 
 
@@ -15,26 +15,51 @@ public class herospecies_kid_converse : MonoBehaviour {
 
 	void Update () {
 		if(PlayerPrefs.GetInt("killedTown") == 0){
-			if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
-			PlayerPrefs.GetInt("talkedToKid") == 0){
-				Instantiate(dialogue_1, new Vector2 (-100, -100), Quaternion.identity);
-				windowOpen = true;
-				PlayerPrefs.SetInt("talkedToKid", 1);
-				StartCoroutine(TurnBackOff());
+			if(PlayerPrefs.GetInt("playerTransform") == 0){
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 0){
+					Instantiate(dialogue_1, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 1);
+					StartCoroutine(TurnBackOff());
+				}
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 1){
+					Instantiate(dialogue_2, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 2);
+					StartCoroutine(TurnBackOff());
+				}
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 2){
+					Instantiate(dialogue_3, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 0);
+					StartCoroutine(TurnBackOff());
+				}
 			}
-			if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
-			PlayerPrefs.GetInt("talkedToKid") == 1){
-				Instantiate(dialogue_2, new Vector2 (-100, -100), Quaternion.identity);
-				windowOpen = true;
-				PlayerPrefs.SetInt("talkedToKid", 2);
-				StartCoroutine(TurnBackOff());
-			}
-			if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
-			PlayerPrefs.GetInt("talkedToKid") == 2){
-				Instantiate(dialogue_3, new Vector2 (-100, -100), Quaternion.identity);
-				windowOpen = true;
-				PlayerPrefs.SetInt("talkedToKid", 0);
-				StartCoroutine(TurnBackOff());
+			if(PlayerPrefs.GetInt("playerTransform") == 1){
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 0){
+					Instantiate(after_1, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 1);
+					StartCoroutine(TurnBackOff());
+				}
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 1){
+					Instantiate(after_2, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 2);
+					StartCoroutine(TurnBackOff());
+				}
+				if(inZone == true && Input.GetKeyDown("space") && !windowOpen &&
+				PlayerPrefs.GetInt("talkedToKid") == 2){
+					Instantiate(after_3, new Vector2 (-100, -100), Quaternion.identity);
+					windowOpen = true;
+					PlayerPrefs.SetInt("talkedToKid", 0);
+					StartCoroutine(TurnBackOff());
+				}
 			}
 		}
 	}

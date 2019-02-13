@@ -16,6 +16,11 @@ public class statue_activate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(PlayerPrefs.GetInt("ancientHeroOver") == 0){
+			if(inZone == true && PlayerPrefs.GetInt("playerTransform") == 1 && PlayerPrefs.GetInt("treeGrown") == 1){
+				Instantiate(evaporate, transform.position, Quaternion.identity);
+				PlayerPrefs.SetInt("orangePlayer", 1);
+				PlayerPrefs.SetInt("ancientHeroOver", 1);
+			}
 			if(inZone == true && PlayerPrefs.GetInt("boneZone") == 1){
 				Debug.Log("activate bone");
 				PlayerPrefs.SetInt("boneActive", 1);

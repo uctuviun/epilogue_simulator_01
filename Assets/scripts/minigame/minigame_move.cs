@@ -43,6 +43,9 @@ public class minigame_move : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
+		if(col.gameObject.tag == "goal"){
+			Destroy (this.gameObject);
+		}
 		if(whichone == 4){
 			if(col.gameObject.tag == "piece4"){
 				rb2d.velocity = Vector2.zero;

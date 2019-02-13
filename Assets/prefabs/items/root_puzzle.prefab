@@ -179,8 +179,23 @@ MonoBehaviour:
   alpha_gene: 0
   fortuneteller: 0
   bridge_log: 0
-  reliquary_halo: 0
+  reliquary_bone: 0
   nulla_card: 0
+  source_token: 0
+  release_chain: 0
+  apex_lantern: 0
+  raincatcher: 0
+  chasm_log: 0
+  reliquary_halo: 0
+  omne_card: 0
+  rosetta: {fileID: 0}
+  map: {fileID: 0}
+  releasing: {fileID: 0}
+  win_screen: {fileID: 0}
+  loss_screen: {fileID: 0}
+  reset: {fileID: 0}
+  fishes: {fileID: 0}
+  minigame: {fileID: 1264812332815646, guid: 197fa3c352db041b283dcca4ef9466e9, type: 2}
 --- !u!212 &212401325941858534
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -10,6 +10,7 @@ TagManager:
   - piece2
   - piece1
   - piece0
+  - goal
   layers:
   - Default
   - TransparentFX
