@@ -8,7 +8,8 @@ public class itemspawn : MonoBehaviour {
 	public bool flatbreads, canteen, panpipes, knife, seedling, rival_vessel, player_vessel,
 	root_puzzle, chain_release, alpha_gene, fortuneteller, bridge_log, reliquary_bone, nulla_card,
 	source_token, release_chain, apex_lantern, raincatcher, chasm_log, reliquary_halo, omne_card;
-	public GameObject rosetta, map, releasing, win_screen, loss_screen, reset, fishes, minigame;
+	public GameObject rosetta, map, releasing, win_screen, loss_screen, reset, fishes, minigame,
+	fort1, fort2, fort3, fort4, fort5, fort6, fort7, fort8, fort9, fort10, fort11, fort12, fort13;
 	AudioSource audiosource;
 
 	// Use this for initialization
@@ -104,6 +105,47 @@ public class itemspawn : MonoBehaviour {
 			PlayerPrefs.GetInt("fishesBorn") == 0){
 				Instantiate(fishes, new Vector2(0,0), Quaternion.identity);
 				PlayerPrefs.SetInt("fishesBorn", 1);
+			}
+		}
+		if(fortuneteller == true){
+			if(PlayerPrefs.GetInt("totalPillars") == 1){
+				Instantiate(fort1, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 2){
+				Instantiate(fort2, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 3){
+				Instantiate(fort3, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 4){
+				Instantiate(fort4, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 5){
+				Instantiate(fort5, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 6){
+				Instantiate(fort6, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 7){
+				Instantiate(fort7, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 8){
+				Instantiate(fort8, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 9){
+				Instantiate(fort9, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 10){
+				Instantiate(fort10, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 11){
+				Instantiate(fort11, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 12){
+				Instantiate(fort12, new Vector2(250,250), Quaternion.identity);
+			}
+			if(PlayerPrefs.GetInt("totalPillars") == 13){
+				Instantiate(fort13, new Vector2(250,250), Quaternion.identity);
 			}
 		}
 		if(player_vessel == true){

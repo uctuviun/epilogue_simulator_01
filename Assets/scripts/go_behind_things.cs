@@ -6,7 +6,7 @@ public class go_behind_things : MonoBehaviour {
 
 	Renderer renderer;
 	public bool inZone = false;
-	public bool villager;
+	public bool villager, hero;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +20,11 @@ public class go_behind_things : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if(hero == true){
+			if(PlayerPrefs.GetInt("killedHero") == 1){
+				this.enabled = false;
+			}
+		}
 		if(inZone == true){
 			renderer.sortingOrder = 1;
 		}

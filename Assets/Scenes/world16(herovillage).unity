@@ -306,6 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 0
+  hero: 0
 --- !u!60 &41623738
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2039,9 +2040,9 @@ MonoBehaviour:
   dialogue_1: {fileID: 1033527105063042, guid: 4b3f8f29cfc2b43708980e6086dc9a89, type: 2}
   dialogue_2: {fileID: 1031734998506760, guid: 1022926f262f3482d8aa5addf5325a03, type: 2}
   dialogue_3: {fileID: 1188757260756704, guid: 9106f4261d4df42e59b00990be6e81c3, type: 2}
-  after_1: {fileID: 1516511428838514, guid: e296afede8518432dbe811a7a8d08941, type: 2}
-  after_2: {fileID: 1961425148346474, guid: fff3426420d58442d8faf42ad0d07a55, type: 2}
-  after_3: {fileID: 1016577822372068, guid: cae26b6b5722d4a0c9d3a6b1942dd9c4, type: 2}
+  after_1: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
+  after_2: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
+  after_3: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
   duration: 2
 --- !u!58 &230649892
 CircleCollider2D:
@@ -2279,6 +2280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
 --- !u!1 &317308212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 0
+  hero: 0
 --- !u!58 &460644352
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3408,7 +3411,7 @@ Transform:
   - {fileID: 170239409}
   - {fileID: 206782119}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &615478710
 GameObject:
@@ -3569,6 +3572,7 @@ GameObject:
   - component: {fileID: 626306189}
   - component: {fileID: 626306191}
   - component: {fileID: 626306190}
+  - component: {fileID: 626306192}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -3617,6 +3621,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &626306192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 626306188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &631002219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3776,6 +3794,7 @@ GameObject:
   - component: {fileID: 716723083}
   - component: {fileID: 716723085}
   - component: {fileID: 716723084}
+  - component: {fileID: 716723086}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -3824,6 +3843,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &716723086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 716723082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &734165301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5328,6 +5361,7 @@ GameObject:
   - component: {fileID: 787717747}
   - component: {fileID: 787717749}
   - component: {fileID: 787717748}
+  - component: {fileID: 787717750}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -5376,6 +5410,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &787717750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 787717746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &794931430
 GameObject:
   m_ObjectHideFlags: 0
@@ -5535,6 +5583,7 @@ GameObject:
   - component: {fileID: 843801714}
   - component: {fileID: 843801716}
   - component: {fileID: 843801715}
+  - component: {fileID: 843801717}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -5583,6 +5632,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &843801717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 843801713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &851878486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5742,6 +5805,7 @@ GameObject:
   - component: {fileID: 855350895}
   - component: {fileID: 855350897}
   - component: {fileID: 855350896}
+  - component: {fileID: 855350898}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -5790,6 +5854,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &855350898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 855350894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &862965352
 GameObject:
   m_ObjectHideFlags: 0
@@ -7100,6 +7178,7 @@ GameObject:
   - component: {fileID: 976495616}
   - component: {fileID: 976495618}
   - component: {fileID: 976495617}
+  - component: {fileID: 976495619}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -7148,6 +7227,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &976495619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 976495615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &992021351
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,6 +7518,7 @@ GameObject:
   - component: {fileID: 1046763523}
   - component: {fileID: 1046763525}
   - component: {fileID: 1046763524}
+  - component: {fileID: 1046763526}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -7473,6 +7567,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1046763526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1046763522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1111728306
 GameObject:
   m_ObjectHideFlags: 0
@@ -7483,6 +7591,7 @@ GameObject:
   - component: {fileID: 1111728307}
   - component: {fileID: 1111728309}
   - component: {fileID: 1111728308}
+  - component: {fileID: 1111728310}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -7531,6 +7640,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1111728310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111728306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1001 &1131598683
 Prefab:
   m_ObjectHideFlags: 0
@@ -7576,7 +7699,7 @@ Prefab:
     - target: {fileID: 224803112684427026, guid: 4b7f6b7e7bafe40989cb1504e48e6d16,
         type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 224803112684427026, guid: 4b7f6b7e7bafe40989cb1504e48e6d16,
         type: 2}
@@ -8013,9 +8136,9 @@ MonoBehaviour:
   dialogue_1: {fileID: 1033527105063042, guid: 4b3f8f29cfc2b43708980e6086dc9a89, type: 2}
   dialogue_2: {fileID: 1031734998506760, guid: 1022926f262f3482d8aa5addf5325a03, type: 2}
   dialogue_3: {fileID: 1188757260756704, guid: 9106f4261d4df42e59b00990be6e81c3, type: 2}
-  after_1: {fileID: 1516511428838514, guid: e296afede8518432dbe811a7a8d08941, type: 2}
-  after_2: {fileID: 1961425148346474, guid: fff3426420d58442d8faf42ad0d07a55, type: 2}
-  after_3: {fileID: 1016577822372068, guid: cae26b6b5722d4a0c9d3a6b1942dd9c4, type: 2}
+  after_1: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
+  after_2: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
+  after_3: {fileID: 1944092224846484, guid: 390087fd0cb42408f84251c5b9ec9fef, type: 2}
   duration: 2
 --- !u!58 &1303734609
 CircleCollider2D:
@@ -8176,6 +8299,7 @@ GameObject:
   - component: {fileID: 1462137382}
   - component: {fileID: 1462137384}
   - component: {fileID: 1462137383}
+  - component: {fileID: 1462137385}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -8224,6 +8348,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1462137385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1462137381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1463318899
 GameObject:
   m_ObjectHideFlags: 0
@@ -8665,6 +8803,7 @@ GameObject:
   - component: {fileID: 1500942630}
   - component: {fileID: 1500942632}
   - component: {fileID: 1500942631}
+  - component: {fileID: 1500942633}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -8713,6 +8852,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1500942633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1500942629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1521988273
 GameObject:
   m_ObjectHideFlags: 0
@@ -8723,6 +8876,7 @@ GameObject:
   - component: {fileID: 1521988274}
   - component: {fileID: 1521988276}
   - component: {fileID: 1521988275}
+  - component: {fileID: 1521988277}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -8771,6 +8925,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1521988277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521988273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1542927962
 GameObject:
   m_ObjectHideFlags: 0
@@ -9463,6 +9631,7 @@ GameObject:
   - component: {fileID: 1697466841}
   - component: {fileID: 1697466843}
   - component: {fileID: 1697466842}
+  - component: {fileID: 1697466844}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -9511,6 +9680,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1697466844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697466840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1729973963
 GameObject:
   m_ObjectHideFlags: 0
@@ -9590,6 +9773,7 @@ GameObject:
   - component: {fileID: 1742950404}
   - component: {fileID: 1742950406}
   - component: {fileID: 1742950405}
+  - component: {fileID: 1742950407}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -9638,6 +9822,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1742950407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1742950403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1001 &1758385242
 Prefab:
   m_ObjectHideFlags: 0
@@ -9676,6 +9874,16 @@ Prefab:
     - target: {fileID: 4502559636526506, guid: 2b563372108fa4ab3a14a5cc4c511939, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114832409965462750, guid: 2b563372108fa4ab3a14a5cc4c511939,
+        type: 2}
+      propertyPath: this_is
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114832409965462750, guid: 2b563372108fa4ab3a14a5cc4c511939,
+        type: 2}
+      propertyPath: the_other_is
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b563372108fa4ab3a14a5cc4c511939, type: 2}
@@ -9995,6 +10203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
 --- !u!1 &1853987055
 GameObject:
   m_ObjectHideFlags: 0
@@ -10695,6 +10904,7 @@ GameObject:
   - component: {fileID: 1933218998}
   - component: {fileID: 1933219000}
   - component: {fileID: 1933218999}
+  - component: {fileID: 1933219001}
   m_Layer: 0
   m_Name: gobehind
   m_TagString: Untagged
@@ -10743,6 +10953,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 1
+  hero: 0
+--- !u!114 &1933219001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933218997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b939d5a57b86b4b52bf84b933146d8b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villager: 1
+  hero: 0
 --- !u!1 &1960670133
 GameObject:
   m_ObjectHideFlags: 0
@@ -10799,7 +11023,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1960670133}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 44344286be8bf40db9f178c3a3ab5107, type: 2}
   m_CullingMode: 0
@@ -13588,6 +13812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 0
+  hero: 0
 --- !u!212 &1978542331
 SpriteRenderer:
   m_ObjectHideFlags: 0

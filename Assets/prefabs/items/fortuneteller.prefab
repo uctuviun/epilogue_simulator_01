@@ -179,8 +179,36 @@ MonoBehaviour:
   alpha_gene: 0
   fortuneteller: 1
   bridge_log: 0
-  reliquary_halo: 0
+  reliquary_bone: 0
   nulla_card: 0
+  source_token: 0
+  release_chain: 0
+  apex_lantern: 0
+  raincatcher: 0
+  chasm_log: 0
+  reliquary_halo: 0
+  omne_card: 0
+  rosetta: {fileID: 0}
+  map: {fileID: 0}
+  releasing: {fileID: 0}
+  win_screen: {fileID: 0}
+  loss_screen: {fileID: 0}
+  reset: {fileID: 0}
+  fishes: {fileID: 0}
+  minigame: {fileID: 0}
+  fort1: {fileID: 1229403385078076, guid: 29e9b5c71786849fea3f50946e124956, type: 2}
+  fort2: {fileID: 1144595085547962, guid: fa4ccb9c2bfeb475f924cfd41cf8d9df, type: 2}
+  fort3: {fileID: 1745409334118436, guid: df4f7cd8ef3ce4a19be0d69819e2d5f1, type: 2}
+  fort4: {fileID: 1402943328634884, guid: d991463fc76a4449ca850ee5a68dc3cd, type: 2}
+  fort5: {fileID: 1727175110084044, guid: 07df88e0a11bc4795baf735d3e13cdfb, type: 2}
+  fort6: {fileID: 1764051855333210, guid: 4894231751e06414bb1513087380af42, type: 2}
+  fort7: {fileID: 1441956693598510, guid: df8a2620f810042b68ec24b48742398e, type: 2}
+  fort8: {fileID: 1571312112124944, guid: 936e188f0eb384b349e1280279aa1686, type: 2}
+  fort9: {fileID: 1823471593829414, guid: fdb1cb15b96c94f6287924d8e39b7f59, type: 2}
+  fort10: {fileID: 1649852623726600, guid: 6a44dc05b8365411d93ab0d3ce493bd5, type: 2}
+  fort11: {fileID: 1897428033528512, guid: f39841c221ea240df849bcd39fcb12f7, type: 2}
+  fort12: {fileID: 1311481481083826, guid: 679b0f58c4b26454ebd350bed69a9f0b, type: 2}
+  fort13: {fileID: 1096401637282390, guid: fc826bdb8094a48df9addb3e1ce642f9, type: 2}
 --- !u!212 &212942043810029870
 SpriteRenderer:
   m_ObjectHideFlags: 1

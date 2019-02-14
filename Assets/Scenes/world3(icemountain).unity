@@ -522,6 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inZone: 0
   villager: 0
+  hero: 0
 --- !u!58 &817188682
 CircleCollider2D:
   m_ObjectHideFlags: 0
