@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212050576385741792}
   - component: {fileID: 95266546060886396}
   - component: {fileID: 114223860411746288}
+  - component: {fileID: 114297212848975922}
+  - component: {fileID: 82367245187899304}
   m_Layer: 0
   m_Name: releasing_animation
   m_TagString: Untagged
@@ -42,6 +44,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82367245187899304
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260303655464690}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5ba11bff791a54120ab6ba376348f6e3, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.227
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95266546060886396
 Animator:
   serializedVersion: 3
@@ -94,6 +191,36 @@ MonoBehaviour:
   omne_card: 0
   rosetta: {fileID: 0}
   map: {fileID: 0}
+  releasing: {fileID: 0}
+  win_screen: {fileID: 0}
+  loss_screen: {fileID: 0}
+  reset: {fileID: 0}
+  fishes: {fileID: 0}
+  minigame: {fileID: 0}
+  fort1: {fileID: 0}
+  fort2: {fileID: 0}
+  fort3: {fileID: 0}
+  fort4: {fileID: 0}
+  fort5: {fileID: 0}
+  fort6: {fileID: 0}
+  fort7: {fileID: 0}
+  fort8: {fileID: 0}
+  fort9: {fileID: 0}
+  fort10: {fileID: 0}
+  fort11: {fileID: 0}
+  fort12: {fileID: 0}
+  fort13: {fileID: 0}
+--- !u!114 &114297212848975922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260303655464690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c7c3ea62362451e87cb2d27aa7d8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212050576385741792
 SpriteRenderer:
   m_ObjectHideFlags: 1

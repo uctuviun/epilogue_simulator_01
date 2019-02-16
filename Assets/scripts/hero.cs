@@ -111,21 +111,49 @@ public class hero : MonoBehaviour {
 
 		Vector2 movement = new Vector2(0, 0);
 
-		if (Input.GetKey("k")){
-			movement = new Vector2(-2, -1);
-			changeState(LDOWN);
+		if (PlayerPrefs.GetInt("inMotion") == 0 || PlayerPrefs.GetInt("inMotion") == 1){
+			if (Input.GetKey("k")){
+				movement = new Vector2(-2, -1);
+				changeState(LDOWN);
+				PlayerPrefs.SetInt("inMotion", 1);
+			}
 		}
-		if (Input.GetKey("j")){
-			movement = new Vector2(-2, 1);
-			changeState(LUP);
+		if (PlayerPrefs.GetInt("inMotion") == 1 && !Input.GetKey("k")){
+			PlayerPrefs.SetInt("inMotion", 0);
 		}
-		if (Input.GetKey("i")){
-			movement = new Vector2(2, 1);
-			changeState(RUP);
+		if (PlayerPrefs.GetInt("inMotion") == 0 || PlayerPrefs.GetInt("inMotion") == 2){
+			if (Input.GetKey("j")){
+				movement = new Vector2(-2, 1);
+				changeState(LUP);
+				PlayerPrefs.SetInt("inMotion", 2);
+			}
 		}
-		if (Input.GetKey("l")){
-			movement = new Vector2(2, -1);
-			changeState(RDOWN);
+		if (PlayerPrefs.GetInt("inMotion") == 2 && !Input.GetKey("j")){
+			PlayerPrefs.SetInt("inMotion", 0);
+		}
+		if (PlayerPrefs.GetInt("inMotion") == 0 || PlayerPrefs.GetInt("inMotion") == 3){
+			if (Input.GetKey("i")){
+				movement = new Vector2(2, 1);
+				changeState(RUP);
+				PlayerPrefs.SetInt("inMotion", 3);
+			}
+		}
+		if (PlayerPrefs.GetInt("inMotion") == 3 && !Input.GetKey("i")){
+			PlayerPrefs.SetInt("inMotion", 0);
+		}
+		if (PlayerPrefs.GetInt("inMotion") == 0 || PlayerPrefs.GetInt("inMotion") == 4){
+			if (Input.GetKey("l")){
+				movement = new Vector2(2, -1);
+				changeState(RDOWN);
+				PlayerPrefs.SetInt("inMotion", 4);
+			}
+		}
+		if (PlayerPrefs.GetInt("inMotion") == 4 && !Input.GetKey("l")){
+			PlayerPrefs.SetInt("inMotion", 0);
+		}
+
+		if (!Input.anyKey){
+			PlayerPrefs.SetInt("inMotion", 0);
 		}
 		rb2d.AddForce(movement * speed);
 

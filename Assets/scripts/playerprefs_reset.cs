@@ -73,6 +73,7 @@ public class playerprefs_reset : MonoBehaviour {
 		PlayerPrefs.SetInt("miniLevelSwitch", 1);
 		PlayerPrefs.SetInt("playerTransform", 0);
 		PlayerPrefs.SetInt("orangePlayer", 0);
+		PlayerPrefs.SetInt("inMotion", 0);
 
 	}
 
