@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: new era
-  defaultCursor: {fileID: 2800000, guid: 1a3d5c7057f5142e48dba46cf1f32a6c, type: 3}
+  defaultCursor: {fileID: 2800000, guid: d516d2c0522cd4fb2899e5ee856fda48, type: 3}
   cursorHotspot: {x: 46, y: 46}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1

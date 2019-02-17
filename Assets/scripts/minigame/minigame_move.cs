@@ -126,7 +126,7 @@ public class minigame_move : MonoBehaviour {
 				rb2d.velocity = Vector2.zero;
 				rb2d.bodyType = RigidbodyType2D.Kinematic;
 				collider.enabled = false;
-				PlayerPrefs.SetInt("miniSpawnLevel", 3);
+				PlayerPrefs.SetInt("miniSpawnLevel", 4);
 				StartCoroutine(Dissolve());
 			}
 			if(col.gameObject.tag == "piece1"){
@@ -172,7 +172,7 @@ public class minigame_move : MonoBehaviour {
 
 	IEnumerator Dissolve(){
 		animator.SetInteger ("state", 1);
-		yield return new WaitForSeconds(.3f);
+		yield return new WaitForSeconds(.05f);
 		Destroy (this.gameObject);
 	}
 }

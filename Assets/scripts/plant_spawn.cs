@@ -19,6 +19,7 @@ public class plant_spawn : MonoBehaviour {
 		if(PlayerPrefs.GetInt("seedlingUsed") == 1){
 			(GetComponent<SpriteRenderer> ()).enabled = true;
 			(GetComponent<Animator> ()).enabled = true;
+			(GetComponent<AudioSource> ()).enabled = true;
 		}
 	}
 

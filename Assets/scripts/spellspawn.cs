@@ -42,12 +42,12 @@ public class spellspawn : MonoBehaviour {
 		if(blizzaga == true){
 			PlayerPrefs.SetInt("elementMode", 2);
 		}
-		if(recover == true){
-			PlayerPrefs.SetInt("gameTuning", 3);
-		}
 		yield return new WaitForSeconds((this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length) -0.1f);
 		if(null_effulgence == true){
 			PlayerPrefs.SetInt("gameLight", 1);
+		}		
+		if(recover == true){
+			PlayerPrefs.SetInt("gameTuning", 3);
 		}
 		if(omne_obelus == true){
 			PlayerPrefs.SetInt("gameSpeed", 1);
