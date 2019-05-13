@@ -72,16 +72,16 @@ public static musicmanager Instance {
         AudioSource.enabled = true;
       }
       if(PlayerPrefs.GetInt("gameSpeed") == 3){
-        AudioSource.pitch = 1.5f;
+        AudioSource.pitch = 1f;
       }
       if(PlayerPrefs.GetInt("gameSpeed") == 2){
-        AudioSource.pitch = 1;
+        AudioSource.pitch = .6f;
       }
       if(PlayerPrefs.GetInt("gameSpeed") == 1){
-        AudioSource.pitch = .5f;
+        AudioSource.pitch = .3f;
       }
       if(PlayerPrefs.GetInt("gameSpeed") == 4){
-        AudioSource.pitch = 2;
+        AudioSource.pitch = 1.5f;
       }
     }
     if(PlayerPrefs.GetInt("soundOn") == 0){

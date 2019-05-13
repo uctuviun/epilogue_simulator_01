@@ -556,12 +556,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 82946851488468880}
-  clip_1: {fileID: 8300000, guid: fbe63d4a895b642e9ab7932be36a3a2a, type: 3}
-  clip_2: {fileID: 8300000, guid: e0f79e0144fea4e00a00630c083ed3e7, type: 3}
-  clip_3: {fileID: 8300000, guid: 12a98b7c27a25432a98b7ba3504a51d4, type: 3}
-  clip_4: {fileID: 8300000, guid: aac449d65e29e40e4954cdd54566cc0a, type: 3}
-  clip_5: {fileID: 8300000, guid: a63fda0ebd87b4a148e72e862e59227e, type: 3}
-  clip_6: {fileID: 8300000, guid: 779853729c3954513899a627eabd165a, type: 3}
+  clip_1: {fileID: 8300000, guid: 4e4390eb0843746efb85f2929c259f7a, type: 3}
+  clip_2: {fileID: 8300000, guid: 21c2798798eeb4248970fc8a85db1d8e, type: 3}
+  clip_3: {fileID: 8300000, guid: de25e176bafa24eaf955a8cf3a0928c6, type: 3}
+  clip_4: {fileID: 8300000, guid: 0318d820dc4cc45f8a7833d8d7aa091b, type: 3}
+  clip_5: {fileID: 8300000, guid: af4cdbdb36711481fb96697c83bcc2ae, type: 3}
+  clip_6: {fileID: 8300000, guid: f121826993267443fbd96ff304f40a12, type: 3}
 --- !u!114 &114678225595084678
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -96,7 +96,7 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 9;
+				speed = 11;
 			}
 		}
 		else if(PlayerPrefs.GetInt("gameSpeed") == 4){
@@ -104,7 +104,7 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 15;
+				speed = 17;
 			}
 		}
 
