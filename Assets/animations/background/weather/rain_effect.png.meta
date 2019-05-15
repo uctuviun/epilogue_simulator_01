@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -86,7 +86,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6000
-        width: 2500
-        height: 1500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f33d1c962f30344e98a84cdc1c514c3c
+      spriteID: f6cdc3cefa6e1472ab3c5411064b27b8
       vertices: []
       indices: 
       edges: []
@@ -122,10 +133,10 @@ TextureImporter:
       name: rain_effect_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b6666b0648f4193895185492852aa1
+      spriteID: 28eeff9746cf54fd686b2467144a4806
       vertices: []
       indices: 
       edges: []
@@ -142,10 +153,10 @@ TextureImporter:
       name: rain_effect_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b03fe9bdb7a048cbb09b60475886077
+      spriteID: 848940cbf7de444d7b77c37b63268942
       vertices: []
       indices: 
       edges: []
@@ -163,9 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4500
-        width: 2500
-        height: 1500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a81dc5da023445da8bf682fcb3cf211
+      spriteID: 6f2b81c1b2f2a4957b9282e4316f437e
       vertices: []
       indices: 
       edges: []
@@ -182,10 +193,10 @@ TextureImporter:
       name: rain_effect_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c3d45d0dc4db44fe9787004a5dac5de
+      spriteID: d56382ddc5682429da953293cc34060d
       vertices: []
       indices: 
       edges: []
@@ -202,10 +213,10 @@ TextureImporter:
       name: rain_effect_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2421567a3dd4a42c18f45eae139ebc73
+      spriteID: 6191a4ecda944483a86ec3176b4601da
       vertices: []
       indices: 
       edges: []
@@ -223,9 +234,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 2500
-        height: 1500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2221908d66abd4f538b628e1b6270ecf
+      spriteID: 383007512debd49d4b46c5809dcb07a1
       vertices: []
       indices: 
       edges: []
@@ -242,10 +253,10 @@ TextureImporter:
       name: rain_effect_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +264,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 521713398640544dab7f10be0cbea812
+      spriteID: 0b41be04a745d430aa08899144c5b2fd
       vertices: []
       indices: 
       edges: []
@@ -262,10 +273,10 @@ TextureImporter:
       name: rain_effect_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad9962ec5cd5b4e66bb86aea706c254c
+      spriteID: 7f2732d31b499475385a0d8669b915d5
       vertices: []
       indices: 
       edges: []
@@ -283,9 +294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 2500
-        height: 1500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27c34dfae6b9149a88c47a926db3ac7c
+      spriteID: a86058395f6254897a90d4d2d50acb5c
       vertices: []
       indices: 
       edges: []
@@ -302,10 +313,10 @@ TextureImporter:
       name: rain_effect_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +324,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62acce18cccac480d90da71606d27fbd
+      spriteID: ef7585f080f07436b99d8e32f8ae9adf
       vertices: []
       indices: 
       edges: []
@@ -322,10 +333,10 @@ TextureImporter:
       name: rain_effect_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,7 +344,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed099ff5ba67346329e0b6908bc1b18e
+      spriteID: 6be430e410bf84a8688a81750e212404
       vertices: []
       indices: 
       edges: []
@@ -344,8 +355,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84534714dec2746c89bf2a9abe2b65ab
+      spriteID: 30017b2d76bf348068692a4271b26272
       vertices: []
       indices: 
       edges: []
@@ -362,10 +373,10 @@ TextureImporter:
       name: rain_effect_13
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,7 +384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159f5386ed5a242adb0a60f75ff76b46
+      spriteID: 2018faf5d7fb641e496a7acfc0c95463
       vertices: []
       indices: 
       edges: []
@@ -382,10 +393,10 @@ TextureImporter:
       name: rain_effect_14
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee4a6dff781c347d4aeaa44ed79119d3
+      spriteID: 936ad3140d85c4c5d97868c7ca91570d
       vertices: []
       indices: 
       edges: []

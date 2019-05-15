@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -86,7 +86,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6000
-        width: 2500
-        height: 1500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2bf211ab4848487abdb280ac1e82388
+      spriteID: 3dece3430cb0c4acea99c2c15d66c693
       vertices: []
       indices: 
       edges: []
@@ -122,10 +133,10 @@ TextureImporter:
       name: hope_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1985ade0b41c748b99a735afe11d3aef
+      spriteID: 500261a11c98d4acea533d93959c519f
       vertices: []
       indices: 
       edges: []
@@ -142,10 +153,10 @@ TextureImporter:
       name: hope_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cf710ed3fe9d4486b69eaa1592cd2d5
+      spriteID: cbe18c79cb897444e94153bbc65f78fd
       vertices: []
       indices: 
       edges: []
@@ -163,9 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4500
-        width: 2500
-        height: 1500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d98279519cb7450e99a78df4b5fc074
+      spriteID: 4b787e2311dbf4212912d16f3124b5b0
       vertices: []
       indices: 
       edges: []
@@ -182,10 +193,10 @@ TextureImporter:
       name: hope_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b575b8500afb42a4a6b48ec79ca9d1c
+      spriteID: 71f80212e6bf14f67baa4fd7c5ae53e5
       vertices: []
       indices: 
       edges: []
@@ -202,10 +213,10 @@ TextureImporter:
       name: hope_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9aadb832aa2c47a58784210b946664f
+      spriteID: bb5bca0a615de4d089c0e1509d6a5b1e
       vertices: []
       indices: 
       edges: []
@@ -223,9 +234,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 2500
-        height: 1500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ab6de4697c1f47f2a3d3fd35a9cc336
+      spriteID: 88d209f3720e44eb3a0dca651dbf0026
       vertices: []
       indices: 
       edges: []
@@ -242,10 +253,10 @@ TextureImporter:
       name: hope_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +264,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc7fb986a934342058f00e542643fce1
+      spriteID: 6e396c485c0044178ad9693f8cf1d952
       vertices: []
       indices: 
       edges: []
@@ -262,10 +273,10 @@ TextureImporter:
       name: hope_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1daf2250b650b441a8694d0b0b9977a4
+      spriteID: c15a565d2594c449a82937c9ce4c350f
       vertices: []
       indices: 
       edges: []
@@ -283,9 +294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 2500
-        height: 1500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af223fd4e5b784914b7df3ac1f01a5ed
+      spriteID: 573bdcd85e8f342da9391bd97a36fd17
       vertices: []
       indices: 
       edges: []
@@ -302,10 +313,10 @@ TextureImporter:
       name: hope_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +324,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8645a26e12440b39c6354d8f7c404c
+      spriteID: 06f25ace9660045eb8b5702722617580
       vertices: []
       indices: 
       edges: []
@@ -322,10 +333,10 @@ TextureImporter:
       name: hope_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,7 +344,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953095b05be3f4e94855e2456020ff47
+      spriteID: cdb62fd43247443b3bdef18c05491dc7
       vertices: []
       indices: 
       edges: []
@@ -344,8 +355,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f547506fb444034be9fb80f1e4464e
+      spriteID: 02837f9125c094ee28f39e30cc8d808c
       vertices: []
       indices: 
       edges: []
@@ -362,10 +373,10 @@ TextureImporter:
       name: hope_13
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,7 +384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9b95498904e34f799bfda736f7b2216
+      spriteID: d6edbd6f9033546009e2a6f586f53c94
       vertices: []
       indices: 
       edges: []
@@ -382,10 +393,10 @@ TextureImporter:
       name: hope_14
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b2febaeb73f947aa99371a7f64fbb5a
+      spriteID: 331b569adc96f4b3a90d0df28e8cfa64
       vertices: []
       indices: 
       edges: []

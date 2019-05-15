@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -77,7 +77,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -94,9 +105,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3500
-        width: 2000
-        height: 3500
+        y: 700
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514d7dda2cb7f46ad9a06566ac661440
+      spriteID: a12bd0738103e47aa9af64736e895370
       vertices: []
       indices: 
       edges: []
@@ -113,10 +124,10 @@ TextureImporter:
       name: world 2 underwater_1
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 3500
-        width: 2000
-        height: 3500
+        x: 400
+        y: 700
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,7 +135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8ca7bd0af69140c7a89018fe9efd2b0
+      spriteID: 92d0e70c9d3d34de18fd8397ffdbfb6e
       vertices: []
       indices: 
       edges: []
@@ -133,10 +144,10 @@ TextureImporter:
       name: world 2 underwater_2
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 3500
-        width: 2000
-        height: 3500
+        x: 800
+        y: 700
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,7 +155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 074cd505fc3eb49d3bbb3fd5bd40103a
+      spriteID: a0ea3cb812678483eb3cb111007c7fa3
       vertices: []
       indices: 
       edges: []
@@ -155,8 +166,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2000
-        height: 3500
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e53e1c1a52e34feba3e0d85d818133c
+      spriteID: deaa94f63ccbb4c408164cbf13696e27
       vertices: []
       indices: 
       edges: []
@@ -173,10 +184,10 @@ TextureImporter:
       name: world 2 underwater_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 400
         y: 0
-        width: 2000
-        height: 3500
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a3545bdbc7848bcb5fc86ea7d3507f
+      spriteID: 08a65646fc6034a25a0d9ed3b4e85f24
       vertices: []
       indices: 
       edges: []
@@ -193,10 +204,10 @@ TextureImporter:
       name: world 2 underwater_5
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 800
         y: 0
-        width: 2000
-        height: 3500
+        width: 400
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a40efff18617400392203da89ef65f0
+      spriteID: a3cdf330ce9524e7299e22debfb61a2a
       vertices: []
       indices: 
       edges: []

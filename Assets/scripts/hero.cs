@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class hero : MonoBehaviour {
 
+//	Vector2 movement;
 	Animator animator;
 	Rigidbody2D rb2d;
 	float speed;
@@ -155,7 +156,7 @@ public class hero : MonoBehaviour {
 		if (!Input.anyKey){
 			PlayerPrefs.SetInt("inMotion", 0);
 		}
-		rb2d.AddForce(movement * speed);
+//		rb2d.AddForce(movement * speed);
 
 		if ((!Input.anyKey) && (animator.GetInteger("state") == LDOWN)){
 			changeState(LDZ);
@@ -169,6 +170,10 @@ public class hero : MonoBehaviour {
 		if ((!Input.anyKey) && (animator.GetInteger("state") == RUP)){
 			changeState(RUZ);
 		}
+	}
+
+	void FixedUpdate(){
+				rb2d.AddForce(movement * speed);
 	}
 
 

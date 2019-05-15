@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +85,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,7 +96,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,9 +124,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 750
-        height: 750
+        y: 600
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b23ced3a8d31847a4b4bdfffdf2cf052
+      spriteID: 3854099772a7142989a5d5c203cb88b3
       vertices: []
       indices: 
       edges: []
@@ -132,10 +143,10 @@ TextureImporter:
       name: flashback3_1
       rect:
         serializedVersion: 2
-        x: 750
-        y: 3000
-        width: 750
-        height: 750
+        x: 150
+        y: 600
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 323d0087b4ec14cb0aaf260aea199072
+      spriteID: dd28e37221ff748e5832c0eb034d25d5
       vertices: []
       indices: 
       edges: []
@@ -152,10 +163,10 @@ TextureImporter:
       name: flashback3_2
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 3000
-        width: 750
-        height: 750
+        x: 300
+        y: 600
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987021e5402ab428c818a97b6ed1f1e6
+      spriteID: 3baf5e2f41cd745379667d499e0dfc32
       vertices: []
       indices: 
       edges: []
@@ -172,10 +183,10 @@ TextureImporter:
       name: flashback3_3
       rect:
         serializedVersion: 2
-        x: 2250
-        y: 3000
-        width: 750
-        height: 750
+        x: 450
+        y: 600
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77384422cce924c7b98a21fd3fa10f9f
+      spriteID: f582b67b5591040e48fdac44b3122f7a
       vertices: []
       indices: 
       edges: []
@@ -192,10 +203,10 @@ TextureImporter:
       name: flashback3_4
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 3000
-        width: 750
-        height: 750
+        x: 600
+        y: 600
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,7 +214,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e68220da724a44bca9f0f5b5a2c1d38b
+      spriteID: 70c4282c500614fe1b0e763b3506645a
       vertices: []
       indices: 
       edges: []
@@ -213,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2250
-        width: 750
-        height: 750
+        y: 450
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,7 +234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d28d4918f13de4e0d81abaa292bfeef2
+      spriteID: 250d46cb581e74049b22bce04f8a5915
       vertices: []
       indices: 
       edges: []
@@ -232,10 +243,10 @@ TextureImporter:
       name: flashback3_6
       rect:
         serializedVersion: 2
-        x: 750
-        y: 2250
-        width: 750
-        height: 750
+        x: 150
+        y: 450
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,7 +254,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1bf15c8d32024c50b6bab3fb8575e77
+      spriteID: 0d14dd612f1a24aeea26bbc06bfb1b04
       vertices: []
       indices: 
       edges: []
@@ -252,10 +263,10 @@ TextureImporter:
       name: flashback3_7
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 2250
-        width: 750
-        height: 750
+        x: 300
+        y: 450
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,7 +274,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 475e7b6114866462f9c9f8caf70d8b7c
+      spriteID: b0993dec2e26549b19812659e4f986d8
       vertices: []
       indices: 
       edges: []
@@ -272,10 +283,10 @@ TextureImporter:
       name: flashback3_8
       rect:
         serializedVersion: 2
-        x: 2250
-        y: 2250
-        width: 750
-        height: 750
+        x: 450
+        y: 450
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,7 +294,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be81dff4cb6884393b2d8f0b93a1f6b6
+      spriteID: 84978ac15507c4952a05173cbb1b5b57
       vertices: []
       indices: 
       edges: []
@@ -292,10 +303,10 @@ TextureImporter:
       name: flashback3_9
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 2250
-        width: 750
-        height: 750
+        x: 600
+        y: 450
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,7 +314,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d4347ddecfdc46ebb39c27f2f110193
+      spriteID: 2dcbb885cc94f4b2687d77a22992f35a
       vertices: []
       indices: 
       edges: []
@@ -313,9 +324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 750
-        height: 750
+        y: 300
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,7 +334,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f6e2799241e42f9a1306dfefedd5dd
+      spriteID: 9e53b48e0df9c4ad5b573f0c7b461adf
       vertices: []
       indices: 
       edges: []
@@ -332,10 +343,10 @@ TextureImporter:
       name: flashback3_11
       rect:
         serializedVersion: 2
-        x: 750
-        y: 1500
-        width: 750
-        height: 750
+        x: 150
+        y: 300
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,7 +354,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc63d08716a346ca885d50c60151808
+      spriteID: c346099141e2f4747855fc5f3b3964dd
       vertices: []
       indices: 
       edges: []
@@ -352,10 +363,10 @@ TextureImporter:
       name: flashback3_12
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1500
-        width: 750
-        height: 750
+        x: 300
+        y: 300
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,7 +374,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac6c92264fee84fc784676650c6c90b5
+      spriteID: b58bc1e7a3ab348358e6883de4015c4c
       vertices: []
       indices: 
       edges: []
@@ -372,10 +383,10 @@ TextureImporter:
       name: flashback3_13
       rect:
         serializedVersion: 2
-        x: 2250
-        y: 1500
-        width: 750
-        height: 750
+        x: 450
+        y: 300
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,7 +394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0392a4e3b7c5c40cd87c39dbd8699602
+      spriteID: 914b463ec3f084c5d933bdb3735771c6
       vertices: []
       indices: 
       edges: []
@@ -392,10 +403,10 @@ TextureImporter:
       name: flashback3_14
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1500
-        width: 750
-        height: 750
+        x: 600
+        y: 300
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,7 +414,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc7128a242564017ac4a0c6004a2a66
+      spriteID: acbce15986b7d46698a1f95e90e5be98
       vertices: []
       indices: 
       edges: []
@@ -413,9 +424,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 750
-        width: 750
-        height: 750
+        y: 150
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,7 +434,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 154ad0dfd256b4716bb41aa32dd883d9
+      spriteID: 2c4387e4d1e2a4a0792d0b154e357f73
       vertices: []
       indices: 
       edges: []
@@ -432,10 +443,10 @@ TextureImporter:
       name: flashback3_16
       rect:
         serializedVersion: 2
-        x: 750
-        y: 750
-        width: 750
-        height: 750
+        x: 150
+        y: 150
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,7 +454,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 409705435224146f58d420ee5cdee7ff
+      spriteID: 024cdf0cea99e437e85080f4263a4ae9
       vertices: []
       indices: 
       edges: []
@@ -452,10 +463,10 @@ TextureImporter:
       name: flashback3_17
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 750
-        width: 750
-        height: 750
+        x: 300
+        y: 150
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,7 +474,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e14580cd729c43708e99dac2872b362
+      spriteID: 78f850a4ba22d40cf8e949a61e7bd93a
       vertices: []
       indices: 
       edges: []
@@ -472,10 +483,10 @@ TextureImporter:
       name: flashback3_18
       rect:
         serializedVersion: 2
-        x: 2250
-        y: 750
-        width: 750
-        height: 750
+        x: 450
+        y: 150
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,7 +494,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955c476f9597b4862a10ae96d7727964
+      spriteID: 3480cf781df434b9a822b322467c0074
       vertices: []
       indices: 
       edges: []
@@ -492,10 +503,10 @@ TextureImporter:
       name: flashback3_19
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 750
-        width: 750
-        height: 750
+        x: 600
+        y: 150
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,7 +514,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7f9efa1ee7d4af8986ab0a086c68c9
+      spriteID: f8166032d07214734ade71f50ba1238f
       vertices: []
       indices: 
       edges: []
@@ -514,8 +525,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 750
-        height: 750
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,7 +534,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6be6d61c8c0442d29e6fc19273cdfea
+      spriteID: 3e820cef430dd4dc4afee2d7e2ef3412
       vertices: []
       indices: 
       edges: []
@@ -532,10 +543,10 @@ TextureImporter:
       name: flashback3_21
       rect:
         serializedVersion: 2
-        x: 750
+        x: 150
         y: 0
-        width: 750
-        height: 750
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,7 +554,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b72162e48ca547aa9171deb1227f274
+      spriteID: 3f26b4a063e1d4206977b987e08f9a9a
       vertices: []
       indices: 
       edges: []
@@ -552,10 +563,10 @@ TextureImporter:
       name: flashback3_22
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 300
         y: 0
-        width: 750
-        height: 750
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,7 +574,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04591a8bde13e4383958f89cb02a4c54
+      spriteID: 4bdb3fde851654154b22dee484f46f28
       vertices: []
       indices: 
       edges: []
@@ -572,10 +583,10 @@ TextureImporter:
       name: flashback3_23
       rect:
         serializedVersion: 2
-        x: 2250
+        x: 450
         y: 0
-        width: 750
-        height: 750
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,7 +594,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b08d069fe603f46d0a686575995a48c7
+      spriteID: afca24d25a823424088092b7775f2303
       vertices: []
       indices: 
       edges: []
@@ -592,10 +603,10 @@ TextureImporter:
       name: flashback3_24
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 600
         y: 0
-        width: 750
-        height: 750
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,7 +614,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd2ab4a2c7e61487d8c5247948b9205a
+      spriteID: 9cf7a9958b4ae4655ad0ce88c3da2af1
       vertices: []
       indices: 
       edges: []

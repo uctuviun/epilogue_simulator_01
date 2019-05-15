@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,9 +125,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6000
-        width: 2500
-        height: 1500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,7 +135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 881521144bc6a44c381f8291b6575163
+      spriteID: a39803c3c9043489780b73c7e57c125e
       vertices: []
       indices: 
       edges: []
@@ -144,10 +144,10 @@ TextureImporter:
       name: teleport fadev2_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,7 +155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf7cda0f1b1140e6899767a34b50742
+      spriteID: 6b0e282dba0e0446caa1053492cf554a
       vertices: []
       indices: 
       edges: []
@@ -164,10 +164,10 @@ TextureImporter:
       name: teleport fadev2_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b1a3f2c9df604f729e1b7296d00d306
+      spriteID: ed86a603a21d24296ba39bc399ca987c
       vertices: []
       indices: 
       edges: []
@@ -185,9 +185,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4500
-        width: 2500
-        height: 1500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fead18bb49241b8ac28210db884518
+      spriteID: ab29c7b0b2f704719aa8a7251f37f983
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
       name: teleport fadev2_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ac7a6c2be0494aa39481472decdf02a
+      spriteID: 6c3e11da766574f40a0035f77c63f73a
       vertices: []
       indices: 
       edges: []
@@ -224,10 +224,10 @@ TextureImporter:
       name: teleport fadev2_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,7 +235,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8bb19a97d073499193d2e088e850a32
+      spriteID: b3690128aa3ec4e648e0e653cfe308e7
       vertices: []
       indices: 
       edges: []
@@ -245,9 +245,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 2500
-        height: 1500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,7 +255,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da6684607a6044e28a5c2ac0fa14a7d
+      spriteID: d4d00041adda34e41886babc1af9bfbe
       vertices: []
       indices: 
       edges: []
@@ -264,10 +264,10 @@ TextureImporter:
       name: teleport fadev2_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,7 +275,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49adbb7bc3a2d4dff919e55a94bf1324
+      spriteID: ff0b6cbe17e834d29b96f9ab9d7a5745
       vertices: []
       indices: 
       edges: []
@@ -284,10 +284,10 @@ TextureImporter:
       name: teleport fadev2_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,7 +295,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107130af8910748c883ffb31d8accd48
+      spriteID: 30dd9ae600f4b43ddbf4938d22d60ec1
       vertices: []
       indices: 
       edges: []
@@ -305,9 +305,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 2500
-        height: 1500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,7 +315,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca7eba8ae6d74fe7a4d3fd34d1943a9
+      spriteID: b509b717a04d24bdf8b43189be3d3ae0
       vertices: []
       indices: 
       edges: []
@@ -324,10 +324,10 @@ TextureImporter:
       name: teleport fadev2_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,7 +335,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f34bcc7e96d3644a196cba92cab826d0
+      spriteID: c347c5152a59648e08e637a05dc4b8ef
       vertices: []
       indices: 
       edges: []
@@ -344,10 +344,10 @@ TextureImporter:
       name: teleport fadev2_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,7 +355,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb8727ec41a97407793d2dba7683a79a
+      spriteID: c746247636e1445b5a94b35aec97bb4c
       vertices: []
       indices: 
       edges: []
@@ -366,8 +366,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,7 +375,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee32b5d5a51784753ba6dda2273826de
+      spriteID: 974b2ddfcfa8b43d98931e8fae7111e9
       vertices: []
       indices: 
       edges: []
@@ -384,10 +384,10 @@ TextureImporter:
       name: teleport fadev2_13
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,7 +395,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee508bf8ab815407ea73346c38ac322e
+      spriteID: 81abcb0c950254e5a96631f4345c9875
       vertices: []
       indices: 
       edges: []
@@ -404,10 +404,10 @@ TextureImporter:
       name: teleport fadev2_14
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,7 +415,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd20a1b1e14d4833a4e93df42439edc
+      spriteID: ec429ec1818c046a6b331bac1e51d4e6
       vertices: []
       indices: 
       edges: []

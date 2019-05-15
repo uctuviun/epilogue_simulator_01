@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,6 +95,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -103,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6000
-        width: 2500
-        height: 1500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cba09371ecd04dcf981f0745476af92
+      spriteID: 765fe0600f55341b8af1f6d1d3ef54c1
       vertices: []
       indices: 
       edges: []
@@ -122,10 +133,10 @@ TextureImporter:
       name: oblivion_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1508f0a647fc64798833b944898c46a3
+      spriteID: 5bd6f9263c39741e5ba297bd0cbaa6a6
       vertices: []
       indices: 
       edges: []
@@ -142,10 +153,10 @@ TextureImporter:
       name: oblivion_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 539878985fbb949a6bdd8fba833281ac
+      spriteID: 140c0225606694f2a811312e7b89f030
       vertices: []
       indices: 
       edges: []
@@ -163,9 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4500
-        width: 2500
-        height: 1500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7a4f920fd698407688839e622273619
+      spriteID: c5f4729c1db914cafbe2638362287923
       vertices: []
       indices: 
       edges: []
@@ -182,10 +193,10 @@ TextureImporter:
       name: oblivion_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50baf63955f3c48009ae9686e23d39f1
+      spriteID: 9b13db8cc34654e6e9bbacb887c4aac3
       vertices: []
       indices: 
       edges: []
@@ -202,10 +213,10 @@ TextureImporter:
       name: oblivion_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d188be8692d824521b29c19bcf610bd7
+      spriteID: 7a9adc1a124754ab2bdd9bf28833cdcb
       vertices: []
       indices: 
       edges: []
@@ -223,9 +234,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 2500
-        height: 1500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbe0672cfa5d24cbcafb2bfae20c2c10
+      spriteID: 2b8818d7990354fb1ad2d4074022f43a
       vertices: []
       indices: 
       edges: []
@@ -242,10 +253,10 @@ TextureImporter:
       name: oblivion_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +264,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55ff96d34bc5a49b9afcb430d65c6450
+      spriteID: 6c6a08ce5292a4c7f8508da49aa74de5
       vertices: []
       indices: 
       edges: []
@@ -262,10 +273,10 @@ TextureImporter:
       name: oblivion_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4298ae77e5647b29529b9be14b6f3a
+      spriteID: c7c772d0e9cd440f98e5af10c53186ee
       vertices: []
       indices: 
       edges: []
@@ -283,9 +294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 2500
-        height: 1500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e52756552665a44d4b2198f5a9328754
+      spriteID: d288103618d414b27a8d6600f7dac1ef
       vertices: []
       indices: 
       edges: []
@@ -302,10 +313,10 @@ TextureImporter:
       name: oblivion_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +324,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe48e4ced7ca6424297e2dcddaa96717
+      spriteID: c6eed54957ad846209b364e40947f019
       vertices: []
       indices: 
       edges: []
@@ -322,10 +333,10 @@ TextureImporter:
       name: oblivion_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,7 +344,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6590faf806054f90a671911a35201ed
+      spriteID: c942880e44fb24347819d64f88e19b41
       vertices: []
       indices: 
       edges: []
@@ -344,8 +355,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1b2bbc78a4a4a0f898b16804948891
+      spriteID: 2d2535d9c6fd14dedb74386e1d5d1e0d
       vertices: []
       indices: 
       edges: []
@@ -362,10 +373,10 @@ TextureImporter:
       name: oblivion_13
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,7 +384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b02e510d723474a980611acc5c9f51
+      spriteID: 3baa0e71b693348edbc578e00b916fb2
       vertices: []
       indices: 
       edges: []
@@ -382,10 +393,10 @@ TextureImporter:
       name: oblivion_14
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7d77c36a453d4b8592ea42c2723ebc0
+      spriteID: e9570362dde24444694370bf32e02fbe
       vertices: []
       indices: 
       edges: []

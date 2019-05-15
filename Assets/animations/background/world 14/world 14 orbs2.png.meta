@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -77,7 +77,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -94,9 +105,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4000
-        width: 3500
-        height: 2000
+        y: 800
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7504d22a9d1cb4d15811a4040a275df1
+      spriteID: 5ffd059b21be14503ae4c10a6de4eea3
       vertices: []
       indices: 
       edges: []
@@ -113,10 +124,10 @@ TextureImporter:
       name: world 14 orbs2_1
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 4000
-        width: 3500
-        height: 2000
+        x: 700
+        y: 800
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,7 +135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6097c4b3d7d1466b89700cb68b86d18
+      spriteID: c4cf3d567fd7d4729951b5a4d7a26699
       vertices: []
       indices: 
       edges: []
@@ -134,9 +145,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2000
-        width: 3500
-        height: 2000
+        y: 400
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,7 +155,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38726823480514dc2995c54b5ad4531a
+      spriteID: 1c85dc750adf24a9f9c85776295d1e81
       vertices: []
       indices: 
       edges: []
@@ -153,10 +164,10 @@ TextureImporter:
       name: world 14 orbs2_3
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 2000
-        width: 3500
-        height: 2000
+        x: 700
+        y: 400
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34bbf7e53fcec48b5a09819cf297670c
+      spriteID: c39a42d3760d14db7b15d1b5ad3fb847
       vertices: []
       indices: 
       edges: []
@@ -175,8 +186,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3500
-        height: 2000
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +195,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 103b0ad8eec624a838b83b21a279498e
+      spriteID: be1d2e81743fb47ba8e11edb4fa5c9bd
       vertices: []
       indices: 
       edges: []
@@ -193,10 +204,10 @@ TextureImporter:
       name: world 14 orbs2_5
       rect:
         serializedVersion: 2
-        x: 3500
+        x: 700
         y: 0
-        width: 3500
-        height: 2000
+        width: 700
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,7 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d10e87ee255146faad9ebf19bcbf588
+      spriteID: b0126ee164b524db1b7edf579c284325
       vertices: []
       indices: 
       edges: []

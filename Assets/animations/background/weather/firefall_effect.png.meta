@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -86,7 +86,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6000
-        width: 2500
-        height: 1500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3ecd4b05e7c4b7cbf7a984deb012c9
+      spriteID: e26a9380d551b4a4ca3dea5959d462b9
       vertices: []
       indices: 
       edges: []
@@ -122,10 +133,10 @@ TextureImporter:
       name: firefall_effect_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b7451fe85bd34abda8c180a8289278f
+      spriteID: e7d5d216a3b9e4614b3076baec1d11c0
       vertices: []
       indices: 
       edges: []
@@ -142,10 +153,10 @@ TextureImporter:
       name: firefall_effect_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 6000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 1200
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ee9068c40067488d91d4e60b7fd62fc
+      spriteID: 00398e9095f8a4a159d2b745d59051cd
       vertices: []
       indices: 
       edges: []
@@ -163,9 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4500
-        width: 2500
-        height: 1500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711ad6513acfd4a1e953490220f58bbf
+      spriteID: 74451af21a7c2426fae17e8e766a6bcd
       vertices: []
       indices: 
       edges: []
@@ -182,10 +193,10 @@ TextureImporter:
       name: firefall_effect_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ec8573a9c174472498569041ac8686c
+      spriteID: 4d8e10f47c4ed421e86e0ea257ffa456
       vertices: []
       indices: 
       edges: []
@@ -202,10 +213,10 @@ TextureImporter:
       name: firefall_effect_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 900
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +224,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c34e558fe0e4e6f81e0a19243406e2
+      spriteID: b0e12dc001d0f463fbba01cea92ae704
       vertices: []
       indices: 
       edges: []
@@ -223,9 +234,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3000
-        width: 2500
-        height: 1500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed626d90028de43f58191524b57124f5
+      spriteID: 60cc34ce6d5934cadad10b5e17a0a909
       vertices: []
       indices: 
       edges: []
@@ -242,10 +253,10 @@ TextureImporter:
       name: firefall_effect_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 500
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +264,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11ec55aa2eea7494f9fb70873f7abd9f
+      spriteID: 9e34e1067a94e4a0cad6f1303e0d4d1b
       vertices: []
       indices: 
       edges: []
@@ -262,10 +273,10 @@ TextureImporter:
       name: firefall_effect_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3000
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 600
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +284,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85709de813cdd44998ee262c8407a969
+      spriteID: 027c214b7eb7745f9ae0bf1b19c750a7
       vertices: []
       indices: 
       edges: []
@@ -283,9 +294,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 2500
-        height: 1500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b28a79d131f1424cb6af9c5d6db30bb
+      spriteID: 0f38ebc19899a49a4b352a402e0ace5e
       vertices: []
       indices: 
       edges: []
@@ -302,10 +313,10 @@ TextureImporter:
       name: firefall_effect_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 500
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +324,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5783ec741b0364e0bbf2f89fc8985123
+      spriteID: de228526c560345399296e83115d742b
       vertices: []
       indices: 
       edges: []
@@ -322,10 +333,10 @@ TextureImporter:
       name: firefall_effect_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1500
-        width: 2500
-        height: 1500
+        x: 1000
+        y: 300
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,7 +344,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7a9c7e007e4450fb88ffdd8f6523df
+      spriteID: 4a456a3c6329746e3af57fcb38c72406
       vertices: []
       indices: 
       edges: []
@@ -344,8 +355,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c867236eb3a024116a2440ebb32784de
+      spriteID: b2742cc11841740c79e57cd7718a5c17
       vertices: []
       indices: 
       edges: []
@@ -362,10 +373,10 @@ TextureImporter:
       name: firefall_effect_13
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,7 +384,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc3846edc4c14173bd0c8e40733d40a
+      spriteID: 4093657c3a6e44e129b19e23925a1e74
       vertices: []
       indices: 
       edges: []
@@ -382,10 +393,10 @@ TextureImporter:
       name: firefall_effect_14
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 1500
+        width: 500
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +404,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9472b4bdce33461e9e4a9b2606b19ee
+      spriteID: 3d0f84a302343430abe06898bb952490
       vertices: []
       indices: 
       edges: []

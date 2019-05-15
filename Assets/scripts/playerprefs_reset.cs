@@ -9,7 +9,8 @@ public class playerprefs_reset : MonoBehaviour {
 
 
 	void Start () {
-		Screen.SetResolution(2880, 1414, true);
+//		Screen.SetResolution(2880, 1414, true);
+		Screen.SetResolution(1440, 707, true);
 		PlayerPrefs.SetInt("sendTo", 1);
 		PlayerPrefs.SetInt("optionsParts", 0);
 		PlayerPrefs.SetInt("playerItemsParts", 0);

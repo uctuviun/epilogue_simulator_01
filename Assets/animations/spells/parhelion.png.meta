@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -92,7 +92,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,7 +103,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -131,9 +131,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5250
-        width: 2500
-        height: 875
+        y: 1050
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,7 +141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8980e6ecff3d24d32917e8c9677ab138
+      spriteID: 82584e21e0ead4595a999d66dc950133
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: parhelion_1
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 5250
-        width: 2500
-        height: 875
+        x: 500
+        y: 1050
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,7 +161,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6224a5f385614d54bb7409cbd54e046
+      spriteID: 5ae409f55e2834ff8ae24030962a7ec5
       vertices: []
       indices: 
       edges: []
@@ -170,10 +170,10 @@ TextureImporter:
       name: parhelion_2
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 5250
-        width: 2500
-        height: 875
+        x: 1000
+        y: 1050
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,7 +181,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 024ccf36dbfb14611a02e23b3774fd1c
+      spriteID: 60a399996afa244bdbfcc296bf4eace1
       vertices: []
       indices: 
       edges: []
@@ -191,9 +191,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4375
-        width: 2500
-        height: 875
+        y: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,7 +201,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa49391af4954c3d839751343280fc9
+      spriteID: 3cf8cf3a1fd5e471fadaf1613d9624d1
       vertices: []
       indices: 
       edges: []
@@ -210,10 +210,10 @@ TextureImporter:
       name: parhelion_4
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 4375
-        width: 2500
-        height: 875
+        x: 500
+        y: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,7 +221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac07c07b1d0ca46309369413692e0fb6
+      spriteID: 9c0b5721a2d8c4abcbacb18c47ed6e61
       vertices: []
       indices: 
       edges: []
@@ -230,10 +230,10 @@ TextureImporter:
       name: parhelion_5
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 4375
-        width: 2500
-        height: 875
+        x: 1000
+        y: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a482f9cc69358404fad0cc899d3b192b
+      spriteID: 28073d4087fec4676bf3d4f833399e1f
       vertices: []
       indices: 
       edges: []
@@ -251,9 +251,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3500
-        width: 2500
-        height: 875
+        y: 700
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,7 +261,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaffe855f3aae431e85b0f29068e8fc0
+      spriteID: 31a196198b4904a4291c88a968420b40
       vertices: []
       indices: 
       edges: []
@@ -270,10 +270,10 @@ TextureImporter:
       name: parhelion_7
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3500
-        width: 2500
-        height: 875
+        x: 500
+        y: 700
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,7 +281,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8b551a93c524125b83fe041f1273d2
+      spriteID: 2be6ea75cc8d744499244f6ca5d76a0e
       vertices: []
       indices: 
       edges: []
@@ -290,10 +290,10 @@ TextureImporter:
       name: parhelion_8
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 3500
-        width: 2500
-        height: 875
+        x: 1000
+        y: 700
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04f342de227fe41d0acdd81d0428f435
+      spriteID: 8c4ac9f42e6ab46109ad8e04ca70a084
       vertices: []
       indices: 
       edges: []
@@ -311,9 +311,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2625
-        width: 2500
-        height: 875
+        y: 525
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,7 +321,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d3f248ee4745446f8cb3807b0b30376
+      spriteID: ea63f129d810446f7bbab73338a31980
       vertices: []
       indices: 
       edges: []
@@ -330,10 +330,10 @@ TextureImporter:
       name: parhelion_10
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 2625
-        width: 2500
-        height: 875
+        x: 500
+        y: 525
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,7 +341,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aaf95eea41844330a7a17453c1a4c97
+      spriteID: 4c85039ff5cae4561a46dbcb6ca17d1e
       vertices: []
       indices: 
       edges: []
@@ -350,10 +350,10 @@ TextureImporter:
       name: parhelion_11
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 2625
-        width: 2500
-        height: 875
+        x: 1000
+        y: 525
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,7 +361,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7006080f5c399403f8dcc36487bb35a8
+      spriteID: 14f14dec1a4874094b0596e5ab8dfe20
       vertices: []
       indices: 
       edges: []
@@ -371,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1750
-        width: 2500
-        height: 875
+        y: 350
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,7 +381,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6cd5d5d90ab14fa7bff5aa9ff429fb1
+      spriteID: 99753ee828f5144e89946c3c2d577925
       vertices: []
       indices: 
       edges: []
@@ -390,10 +390,10 @@ TextureImporter:
       name: parhelion_13
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1750
-        width: 2500
-        height: 875
+        x: 500
+        y: 350
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,7 +401,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3685146a93da04b53bae31ee836ecde3
+      spriteID: 166bc7933799f4b4b969f18156fb5710
       vertices: []
       indices: 
       edges: []
@@ -410,10 +410,10 @@ TextureImporter:
       name: parhelion_14
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 1750
-        width: 2500
-        height: 875
+        x: 1000
+        y: 350
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,7 +421,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2abe8c225bb604a5a9693eee8ebe4afc
+      spriteID: 1562eb24c51e14ec881d8ce6ad2b79b2
       vertices: []
       indices: 
       edges: []
@@ -431,9 +431,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 875
-        width: 2500
-        height: 875
+        y: 175
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,7 +441,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f21e73d3e309d45b8ab6903f2eb521f0
+      spriteID: 6244299c1f69a4af9baa82a1380f2a7e
       vertices: []
       indices: 
       edges: []
@@ -450,10 +450,10 @@ TextureImporter:
       name: parhelion_16
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 875
-        width: 2500
-        height: 875
+        x: 500
+        y: 175
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,7 +461,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb492cd2e850b427c9a696a3a204d4c8
+      spriteID: e76ab7e1e19ff4faab3b61bc84274f9c
       vertices: []
       indices: 
       edges: []
@@ -470,10 +470,10 @@ TextureImporter:
       name: parhelion_17
       rect:
         serializedVersion: 2
-        x: 5000
-        y: 875
-        width: 2500
-        height: 875
+        x: 1000
+        y: 175
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,7 +481,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8fc0ef59b4b34f6faea13c5755c7e21
+      spriteID: 81e314a71d4ad4623ad1a27ff6a65d32
       vertices: []
       indices: 
       edges: []
@@ -492,8 +492,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2500
-        height: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,7 +501,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f288b21f34446481183fabb433a99dbb
+      spriteID: 4ed1aa8613b3b446286549367cea5795
       vertices: []
       indices: 
       edges: []
@@ -510,10 +510,10 @@ TextureImporter:
       name: parhelion_19
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 500
         y: 0
-        width: 2500
-        height: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,7 +521,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b196851f306b1426b80f351ed0dc2e07
+      spriteID: bc1718d6cf87f4c549f9eadea547763f
       vertices: []
       indices: 
       edges: []
@@ -530,10 +530,10 @@ TextureImporter:
       name: parhelion_20
       rect:
         serializedVersion: 2
-        x: 5000
+        x: 1000
         y: 0
-        width: 2500
-        height: 875
+        width: 500
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,7 +541,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a8e9b9c04184c57b548ca3de6da68b
+      spriteID: 21fe9a610ff21432eb57008e2aa28077
       vertices: []
       indices: 
       edges: []

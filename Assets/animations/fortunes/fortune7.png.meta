@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +85,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -96,7 +96,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,9 +124,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4400
-        width: 1100
-        height: 1100
+        y: 880
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56b44e3ed6614406b95b628b454b151f
+      spriteID: 8d7e2a16dadb540f38a0e06c5977678e
       vertices: []
       indices: 
       edges: []
@@ -132,10 +143,10 @@ TextureImporter:
       name: fortune7_1
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 4400
-        width: 1100
-        height: 1100
+        x: 220
+        y: 880
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2212139f93bd3455a8b9758f0d72bcd1
+      spriteID: 4c8f85214687944d180fc49bd18f466d
       vertices: []
       indices: 
       edges: []
@@ -152,10 +163,10 @@ TextureImporter:
       name: fortune7_2
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 4400
-        width: 1100
-        height: 1100
+        x: 440
+        y: 880
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b82cc997b0a40ff98fe981a095945d
+      spriteID: 52959f333425c4740adbc5fc02bc0465
       vertices: []
       indices: 
       edges: []
@@ -172,10 +183,10 @@ TextureImporter:
       name: fortune7_3
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 4400
-        width: 1100
-        height: 1100
+        x: 660
+        y: 880
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6667c774a1a80498b9151ef63e303977
+      spriteID: 8049816e03474434a9ce9655ceeca3b4
       vertices: []
       indices: 
       edges: []
@@ -192,10 +203,10 @@ TextureImporter:
       name: fortune7_4
       rect:
         serializedVersion: 2
-        x: 4400
-        y: 4400
-        width: 1100
-        height: 1100
+        x: 880
+        y: 880
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,7 +214,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35678a705cfc142ada1f95e108763165
+      spriteID: a4ca5edee8176473ea6a9cbe56d6ace8
       vertices: []
       indices: 
       edges: []
@@ -213,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3300
-        width: 1100
-        height: 1100
+        y: 660
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,7 +234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c718365c306a74e42999b1431dae3bb7
+      spriteID: c1c99fa5647fc408abe3bdcdc3c1cbf4
       vertices: []
       indices: 
       edges: []
@@ -232,10 +243,10 @@ TextureImporter:
       name: fortune7_6
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 3300
-        width: 1100
-        height: 1100
+        x: 220
+        y: 660
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,7 +254,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750bae0a947284f918504492fb8b0f58
+      spriteID: 20a976502bd7d4de19711f2c5f464281
       vertices: []
       indices: 
       edges: []
@@ -252,10 +263,10 @@ TextureImporter:
       name: fortune7_7
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 3300
-        width: 1100
-        height: 1100
+        x: 440
+        y: 660
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,7 +274,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 440dd55b1798e4a6bad5f92ef513627b
+      spriteID: a6855029879154461beea6e15ae60f5d
       vertices: []
       indices: 
       edges: []
@@ -272,10 +283,10 @@ TextureImporter:
       name: fortune7_8
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 3300
-        width: 1100
-        height: 1100
+        x: 660
+        y: 660
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,7 +294,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b857e3530d84b8aa640ed4ddea9760
+      spriteID: 37ac45d8259544d9eab57c5b8e16bb1a
       vertices: []
       indices: 
       edges: []
@@ -292,10 +303,10 @@ TextureImporter:
       name: fortune7_9
       rect:
         serializedVersion: 2
-        x: 4400
-        y: 3300
-        width: 1100
-        height: 1100
+        x: 880
+        y: 660
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,7 +314,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f73663fe250e94a2da6cac0319f0c62f
+      spriteID: 33283786cc0c24e96907c49ef27479eb
       vertices: []
       indices: 
       edges: []
@@ -313,9 +324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2200
-        width: 1100
-        height: 1100
+        y: 440
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,7 +334,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f3fc7bb44201430280a6300243a12bc
+      spriteID: b86239ec2796b4c50bd5a6b6f17c6ecc
       vertices: []
       indices: 
       edges: []
@@ -332,10 +343,10 @@ TextureImporter:
       name: fortune7_11
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2200
-        width: 1100
-        height: 1100
+        x: 220
+        y: 440
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,7 +354,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7efb88100dc5e4cb2af2f4560a303e54
+      spriteID: 9cc8cb9f6af844beba7992c8696eb012
       vertices: []
       indices: 
       edges: []
@@ -352,10 +363,10 @@ TextureImporter:
       name: fortune7_12
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 2200
-        width: 1100
-        height: 1100
+        x: 440
+        y: 440
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,7 +374,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc451323455e4ba5af9ccf81adc6e0f
+      spriteID: cd1834be2814346a19c0373b0eb61f71
       vertices: []
       indices: 
       edges: []
@@ -372,10 +383,10 @@ TextureImporter:
       name: fortune7_13
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 2200
-        width: 1100
-        height: 1100
+        x: 660
+        y: 440
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,7 +394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c450298208dd4c4ba2aece43e3ee6d9
+      spriteID: a3dd2eb624b4542bebc55e51c50ef03b
       vertices: []
       indices: 
       edges: []
@@ -392,10 +403,10 @@ TextureImporter:
       name: fortune7_14
       rect:
         serializedVersion: 2
-        x: 4400
-        y: 2200
-        width: 1100
-        height: 1100
+        x: 880
+        y: 440
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,7 +414,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc449a23b50542b4b94184033bde193
+      spriteID: 90554cc3c01c0410ba4ca458d9badddb
       vertices: []
       indices: 
       edges: []
@@ -413,9 +424,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1100
-        width: 1100
-        height: 1100
+        y: 220
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,7 +434,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 966567a8876444264a7150e9a3e76ee3
+      spriteID: a6d477eabefa8462f9039038c0dae193
       vertices: []
       indices: 
       edges: []
@@ -432,10 +443,10 @@ TextureImporter:
       name: fortune7_16
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1100
-        width: 1100
-        height: 1100
+        x: 220
+        y: 220
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,7 +454,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db6996125f6784da29a729c60deec0e3
+      spriteID: 39d4b825f993348d9bd2f63948121aa1
       vertices: []
       indices: 
       edges: []
@@ -452,10 +463,10 @@ TextureImporter:
       name: fortune7_17
       rect:
         serializedVersion: 2
-        x: 2200
-        y: 1100
-        width: 1100
-        height: 1100
+        x: 440
+        y: 220
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,7 +474,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3d531517f32a44a6af2218607d7d70a
+      spriteID: 9d969150d45314031bdd9a06e874f79f
       vertices: []
       indices: 
       edges: []
@@ -472,10 +483,10 @@ TextureImporter:
       name: fortune7_18
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 1100
-        width: 1100
-        height: 1100
+        x: 660
+        y: 220
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,7 +494,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9c95075dd5474197bb0ad2309aad21f
+      spriteID: 344d1a43e2f984b1ab0c9675e148f34b
       vertices: []
       indices: 
       edges: []
@@ -492,10 +503,10 @@ TextureImporter:
       name: fortune7_19
       rect:
         serializedVersion: 2
-        x: 4400
-        y: 1100
-        width: 1100
-        height: 1100
+        x: 880
+        y: 220
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,7 +514,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d736de6ce454d84807688825005fdb
+      spriteID: bb3a0759ccd554d22849a826f8248f61
       vertices: []
       indices: 
       edges: []
@@ -514,8 +525,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1100
-        height: 1100
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,7 +534,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb3037568e5d14257a2f3b9b30808c4e
+      spriteID: b9aa575ae1061475c9a038cfbac298a1
       vertices: []
       indices: 
       edges: []
@@ -532,10 +543,10 @@ TextureImporter:
       name: fortune7_21
       rect:
         serializedVersion: 2
-        x: 1100
+        x: 220
         y: 0
-        width: 1100
-        height: 1100
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,7 +554,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4a2fa7a0fdf6430f9b06e450673cbc4
+      spriteID: 661b81aa886d0428d8e471a91d0009de
       vertices: []
       indices: 
       edges: []
@@ -552,10 +563,10 @@ TextureImporter:
       name: fortune7_22
       rect:
         serializedVersion: 2
-        x: 2200
+        x: 440
         y: 0
-        width: 1100
-        height: 1100
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,7 +574,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d39d3b777ea4d7f8b5a714e04dc6eb
+      spriteID: 65fa1e6cfe2fb405ab34702830fd3c1c
       vertices: []
       indices: 
       edges: []
@@ -572,10 +583,10 @@ TextureImporter:
       name: fortune7_23
       rect:
         serializedVersion: 2
-        x: 3300
+        x: 660
         y: 0
-        width: 1100
-        height: 1100
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,7 +594,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaa186f46cda441268d972955bbcbf7f
+      spriteID: 6252b81ecaf274aafbc966fe789017fe
       vertices: []
       indices: 
       edges: []
@@ -592,10 +603,10 @@ TextureImporter:
       name: fortune7_24
       rect:
         serializedVersion: 2
-        x: 4400
+        x: 880
         y: 0
-        width: 1100
-        height: 1100
+        width: 220
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,7 +614,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f589e8d427524fc2972f6e133e33334
+      spriteID: 1046bd188f1464bf792465e0a6f49f88
       vertices: []
       indices: 
       edges: []
