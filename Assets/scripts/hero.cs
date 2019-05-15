@@ -172,9 +172,9 @@ public class hero : MonoBehaviour {
 		}
 	}
 
-	void FixedUpdate(){
-				rb2d.AddForce(movement * speed);
-	}
+//	void FixedUpdate(){
+//				rb2d.AddForce(movement * speed);
+//	}
 
 
 
