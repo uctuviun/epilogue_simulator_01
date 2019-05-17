@@ -1,10 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class hero : MonoBehaviour {
 
-//	Vector2 movement;
+	Vector2 movement = new Vector2 (0,0);
 	Animator animator;
 	Rigidbody2D rb2d;
 	float speed;
@@ -75,7 +75,7 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 50;
+				speed = 60;
 			}
 		}
 		else if(PlayerPrefs.GetInt("freeze") == 1){
@@ -89,7 +89,7 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 6;
+				speed = 8;
 			}
 		}
 		else if(PlayerPrefs.GetInt("gameSpeed") == 3){
@@ -97,7 +97,7 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 11;
+				speed = 13;
 			}
 		}
 		else if(PlayerPrefs.GetInt("gameSpeed") == 4){
@@ -105,13 +105,16 @@ public class hero : MonoBehaviour {
 				speed = 3;
 			}
 			else{
-				speed = 17;
+				speed = 18;
 			}
 		}
 
 
-		Vector2 movement = new Vector2(0, 0);
+//		Vector2 movement = new Vector2(0, 0);
 
+		if(!Input.anyKey){
+			movement = new Vector2(0, 0);
+		}
 		if (PlayerPrefs.GetInt("inMotion") == 0 || PlayerPrefs.GetInt("inMotion") == 1){
 			if (Input.GetKey("k")){
 				movement = new Vector2(-2, -1);
@@ -172,9 +175,10 @@ public class hero : MonoBehaviour {
 		}
 	}
 
-//	void FixedUpdate(){
-//				rb2d.AddForce(movement * speed);
-//	}
+	void FixedUpdate(){
+
+				rb2d.AddForce(movement * speed);
+	}
 
 
 
